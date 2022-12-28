@@ -329,6 +329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2022-12-24 11:37:46 +0700"
@@ -410,6 +416,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-24 11:24:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
     },
     "done": true
   },
@@ -661,6 +673,12 @@
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
       "has_yellow_wool": "2022-12-26 22:18:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
     },
     "done": true
   },
@@ -1078,6 +1096,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:frozen_river": "2022-12-19 21:21:23 +0700",
@@ -1208,6 +1232,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2022-12-19 22:13:34 +0700"
@@ -1331,6 +1361,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2022-12-19 22:37:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
     },
     "done": true
   },
@@ -1542,6 +1578,7 @@
     "criteria": {
       "cooked_porkchop": "2022-12-19 21:35:23 +0700",
       "cooked_mutton": "2022-12-19 21:55:52 +0700",
+      "sweet_berries": "2022-12-28 20:29:44 +0700",
       "cooked_beef": "2022-12-22 19:40:56 +0700",
       "beef": "2022-12-19 21:31:18 +0700",
       "porkchop": "2022-12-19 22:50:06 +0700",
@@ -1954,6 +1991,12 @@
     },
     "done": true
   },
+  "byg:husbandry/granny_smith": {
+    "criteria": {
+      "green_apple": "2022-12-28 22:11:44 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2022-12-21 21:24:27 +0700"
@@ -2251,6 +2294,12 @@
   "minecraft:recipes/decorations/brown_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2022-12-22 22:47:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2022-12-28 20:36:20 +0700"
     },
     "done": true
   },
