@@ -778,16 +778,22 @@
       "minecraft:blaze": "2022-12-21 22:49:36 +0700",
       "minecraft:pillager": "2022-12-22 22:15:18 +0700",
       "minecraft:skeleton": "2022-12-19 21:39:00 +0700",
+      "minecraft:ravager": "2022-12-29 21:50:49 +0700",
+      "minecraft:ghast": "2022-12-29 20:14:25 +0700",
+      "minecraft:vindicator": "2022-12-29 21:48:28 +0700",
       "minecraft:magma_cube": "2022-12-26 21:43:49 +0700",
       "minecraft:spider": "2022-12-24 11:47:42 +0700",
       "minecraft:creeper": "2022-12-25 21:36:30 +0700",
+      "minecraft:evoker": "2022-12-29 21:54:58 +0700",
       "minecraft:phantom": "2022-12-27 19:16:06 +0700",
+      "minecraft:witch": "2022-12-29 21:50:38 +0700",
       "minecraft:wither_skeleton": "2022-12-21 22:27:32 +0700",
       "minecraft:ender_dragon": "2022-12-26 20:26:54 +0700",
       "minecraft:shulker": "2022-12-26 21:00:07 +0700",
       "minecraft:piglin": "2022-12-22 21:02:54 +0700",
       "minecraft:enderman": "2022-12-21 23:14:36 +0700",
       "minecraft:silverfish": "2022-12-22 20:49:57 +0700",
+      "minecraft:vex": "2022-12-29 21:54:55 +0700",
       "minecraft:zombie": "2022-12-19 21:14:42 +0700"
     },
     "done": false
@@ -1350,6 +1356,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2022-12-29 21:51:16 +0700"
+    },
+    "done": true
+  },
   "byg:recipes/byg.byg/rainbow_eucalyptus_chest_boat": {
     "criteria": {
       "has_boat": "2022-12-21 23:14:15 +0700"
@@ -1407,6 +1419,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2022-12-19 22:34:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2022-12-29 20:44:12 +0700"
     },
     "done": true
   },
@@ -1671,6 +1689,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2022-12-29 20:44:12 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_slab": {
     "criteria": {
       "has_purpur_block": "2022-12-26 21:12:21 +0700"
@@ -1716,6 +1740,12 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2022-12-19 22:08:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2022-12-29 23:17:47 +0700"
     },
     "done": true
   },
@@ -2277,6 +2307,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2022-12-29 20:43:40 +0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-12-19 21:22:04 +0700",
@@ -2285,6 +2321,7 @@
       "cooked_beef": "2022-12-19 21:38:24 +0700",
       "chorus_fruit": "2022-12-28 21:39:17 +0700",
       "baked_potato": "2022-12-22 20:18:21 +0700",
+      "beef": "2022-12-29 22:02:57 +0700",
       "apple": "2022-12-19 20:57:21 +0700",
       "mutton": "2022-12-19 21:51:27 +0700",
       "bread": "2022-12-21 20:24:34 +0700",
@@ -2806,6 +2843,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2022-12-29 21:51:16 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2022-12-21 21:34:42 +0700"
@@ -3079,6 +3122,12 @@
   "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2022-12-22 20:37:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2022-12-29 20:43:40 +0700"
     },
     "done": true
   },
@@ -3487,6 +3536,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2022-12-22 22:15:41 +0700"
+    },
+    "done": true
+  },
+  "immersive_paintings:misc/painting": {
+    "criteria": {
+      "has_item": "2022-12-29 20:44:12 +0700"
     },
     "done": true
   },
