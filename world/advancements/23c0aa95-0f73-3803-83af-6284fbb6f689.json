@@ -299,6 +299,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_boat": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2022-12-24 11:11:40 +0700"
@@ -455,6 +461,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-30 22:42:48 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2022-12-21 21:18:23 +0700"
@@ -599,9 +611,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2022-12-30 22:42:48 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-12-19 22:48:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
     },
     "done": true
   },
@@ -671,6 +695,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2023-01-01 19:31:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2022-12-19 19:57:22 +0700"
@@ -737,6 +767,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-12-19 23:01:15 +0700"
@@ -770,6 +806,12 @@
   "inmis:frayed_backpack": {
     "criteria": {
       "backpack": "2022-12-21 23:19:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
     },
     "done": true
   },
@@ -825,6 +867,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2022-12-22 22:15:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2023-01-01 19:56:46 +0700"
     },
     "done": true
   },
@@ -951,6 +999,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2022-12-19 22:20:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2023-01-01 19:56:46 +0700"
     },
     "done": true
   },
@@ -1224,6 +1278,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_slab": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2022-12-25 19:45:31 +0700"
@@ -1380,9 +1440,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2023-01-01 19:31:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2022-12-19 23:09:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
     },
     "done": true
   },
@@ -1509,6 +1581,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2022-12-19 21:20:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
     },
     "done": true
   },
@@ -1650,6 +1728,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-30 22:42:48 +0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-12-25 20:09:12 +0700",
@@ -1767,6 +1851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2022-12-21 21:05:39 +0700"
@@ -1827,6 +1917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-30 22:42:48 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2022-12-19 22:38:11 +0700"
@@ -1836,6 +1932,18 @@
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_planks": "2022-12-25 20:34:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2023-01-01 19:56:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2022-12-30 22:55:43 +0700"
     },
     "done": true
   },
@@ -1953,6 +2061,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_planks": {
+    "criteria": {
+      "has_logs": "2023-01-01 21:34:47 +0700"
+    },
+    "done": true
+  },
   "byg:biomepedia_gift": {
     "criteria": {
       "tick": "2022-12-19 19:56:22 +0700"
@@ -2004,6 +2118,18 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2022-12-22 21:08:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2022-12-30 22:42:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
     },
     "done": true
   },
@@ -2235,6 +2361,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_bookshelf": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-12-19 19:57:22 +0700"
@@ -2369,6 +2501,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_fence": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-12-19 20:56:53 +0700"
@@ -2477,6 +2615,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2022-12-19 21:27:46 +0700"
@@ -2543,6 +2687,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2022-12-30 20:01:09 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2022-12-25 20:34:29 +0700"
@@ -2561,6 +2711,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-12-19 23:01:15 +0700"
@@ -2570,6 +2726,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
       "has_smooth_stone": "2022-12-21 21:29:15 +0700"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/cherry_door": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
     },
     "done": true
   },
@@ -2885,6 +3047,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-01-01 21:38:57 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2022-12-19 22:32:53 +0700"
@@ -3038,6 +3206,12 @@
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2022-12-22 20:27:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2023-01-01 22:16:56 +0700"
     },
     "done": true
   },
@@ -3407,6 +3581,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2022-12-30 22:42:48 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-19 22:17:09 +0700"
@@ -3428,6 +3608,12 @@
   "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
       "has_shulker_shell": "2022-12-26 21:01:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2022-12-30 20:01:09 +0700"
     },
     "done": true
   },
@@ -3473,6 +3659,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_button": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
       "has_purple_dye": "2022-12-28 21:45:53 +0700"
@@ -3503,9 +3695,21 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_crafting_table": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2022-12-21 22:53:10 +0700"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/cherry_wood": {
+    "criteria": {
+      "has_log": "2023-01-01 21:34:47 +0700"
     },
     "done": true
   },
@@ -3583,6 +3787,7 @@
       "byg:embur_bog": "2022-12-19 23:01:53 +0700",
       "byg:aspen_forest": "2022-12-27 21:57:25 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:14 +0700",
+      "byg:cherry_blossom_forest": "2023-01-01 21:34:42 +0700",
       "byg:cardinal_tundra": "2022-12-19 21:27:55 +0700",
       "byg:nightshade_forest": "2022-12-26 21:15:49 +0700",
       "byg:shulkren_forest": "2022-12-26 21:15:10 +0700",
@@ -3673,6 +3878,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-01-01 22:01:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2022-12-19 21:36:22 +0700"
@@ -3721,6 +3932,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2023-01-01 19:31:13 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2022-12-27 20:25:59 +0700"
@@ -3736,6 +3953,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2022-12-19 20:55:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-01-01 23:26:01 +0700"
     },
     "done": true
   },
