@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-01-03 21:25:10 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2022-12-19 22:20:27 +0700"
@@ -870,6 +876,7 @@
       "minecraft:creeper": "2022-12-25 21:36:30 +0700",
       "minecraft:evoker": "2022-12-29 21:54:58 +0700",
       "minecraft:phantom": "2022-12-27 19:16:06 +0700",
+      "minecraft:zombified_piglin": "2023-01-03 21:24:48 +0700",
       "minecraft:witch": "2022-12-29 21:50:38 +0700",
       "minecraft:wither_skeleton": "2022-12-21 22:27:32 +0700",
       "minecraft:ender_dragon": "2022-12-26 20:26:54 +0700",
@@ -1609,6 +1616,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2023-01-04 23:13:22 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-19 22:17:09 +0700"
@@ -1934,6 +1947,12 @@
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2022-12-25 21:02:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-01-04 22:10:16 +0700"
     },
     "done": true
   },
@@ -2553,6 +2572,7 @@
       "baked_potato": "2022-12-22 20:18:21 +0700",
       "beef": "2022-12-29 22:02:57 +0700",
       "apple": "2022-12-19 20:57:21 +0700",
+      "potato": "2023-01-05 00:42:02 +0700",
       "mutton": "2022-12-19 21:51:27 +0700",
       "bread": "2022-12-21 20:24:34 +0700",
       "golden_apple": "2022-12-21 20:26:53 +0700",
@@ -3266,6 +3286,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-01-03 21:25:10 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_candle": {
     "criteria": {
       "has_red_dye": "2022-12-26 20:38:19 +0700"
@@ -3437,6 +3463,12 @@
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2022-12-21 22:41:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2023-01-04 23:37:04 +0700"
     },
     "done": true
   },

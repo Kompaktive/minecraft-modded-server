@@ -1,32 +1,34 @@
-[00:07:18] [Server thread/INFO]: Xygnus has made the advancement [Ice Bucket Challenge]
-[00:50:54] [Server thread/INFO]: Xygnus lost connection: Disconnected
-[00:50:54] [Server thread/INFO]: Xygnus left the game
-[00:50:54] [Server thread/INFO]: Disconnecting client Xygnus
-[00:51:02] [Server thread/INFO]: Xygnus[/127.35.45.68:51716] logged in with entity id 55640 at (-248.85872231389874, 64.0, -300.8406313176139)
-[00:51:02] [Server thread/INFO]: Sending server config values to client
-[00:51:02] [Server thread/INFO]: Xygnus joined the game
-[00:51:02] [Netty Server IO #31/INFO]: Receiving client config
-[00:51:02] [Server thread/INFO]: Received secret request of Xygnus (15)
-[00:51:02] [Server thread/INFO]: Sent secret to Xygnus
-[00:51:02] [Netty Server IO #31/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
-[00:51:14] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
-[01:58:39] [Server thread/INFO]: <Pendr_a_gon> string mba
-[01:58:44] [Server thread/INFO]: <Xygnus> wait
-[02:14:46] [Server thread/INFO]: <Pendr_a_gon> xaero-waypoint:Bogor:B:1308:74:-1398:7:false:0:Internal-overworld-waypoints
-[02:17:00] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
-[02:17:00] [Server thread/INFO]: Pendr_a_gon left the game
-[02:17:00] [Server thread/INFO]: Disconnecting client Pendr_a_gon
-[02:17:03] [Server thread/INFO]: Xygnus lost connection: Disconnected
-[02:17:03] [Server thread/INFO]: Xygnus left the game
-[02:17:03] [Server thread/INFO]: Disconnecting client Xygnus
-[05:28:28] [Server thread/INFO]: Stopping the server
-[05:28:28] [Server thread/INFO]: Stopping server
-[05:28:28] [Server thread/INFO]: Saving players
-[05:28:28] [Server thread/INFO]: Saving worlds
-[05:28:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:28:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05:28:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:28:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:52:50] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[00:52:50] [Server thread/INFO]: Xygnus left the game
+[00:52:50] [Server thread/INFO]: Disconnecting client Xygnus
+[00:52:58] [Server thread/INFO]: Xygnus[/127.134.15.166:51424] logged in with entity id 66612 at (-309.77560908374903, 65.0, -274.23950095067096)
+[00:52:58] [Server thread/INFO]: Sending server config values to client
+[00:52:58] [Server thread/INFO]: Xygnus joined the game
+[00:52:58] [Netty Server IO #21/INFO]: Receiving client config
+[00:52:59] [Netty Server IO #21/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[00:52:59] [Server thread/INFO]: Received secret request of Xygnus (15)
+[00:52:59] [Server thread/INFO]: Sent secret to Xygnus
+[00:53:11] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[00:54:22] [Server thread/INFO]: <Pendr_a_gon> aku udahan ya mba
+[00:54:28] [Server thread/INFO]: <Xygnus> hu um, aku juga
+[00:54:31] [Server thread/INFO]: <Xygnus> ngantuk
+[00:54:35] [Server thread/INFO]: <Pendr_a_gon> ok
+[00:54:38] [Server thread/INFO]: <Pendr_a_gon> byee
+[00:54:39] [Server thread/INFO]: <Xygnus> byeee
+[00:54:46] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[00:54:46] [Server thread/INFO]: Pendr_a_gon left the game
+[00:54:46] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[00:54:47] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[00:54:47] [Server thread/INFO]: Xygnus left the game
+[00:54:47] [Server thread/INFO]: Disconnecting client Xygnus
+[04:21:33] [Server thread/INFO]: Stopping the server
+[04:21:33] [Server thread/INFO]: Stopping server
+[04:21:33] [Server thread/INFO]: Saving players
+[04:21:33] [Server thread/INFO]: Saving worlds
+[04:21:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:21:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:21:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
