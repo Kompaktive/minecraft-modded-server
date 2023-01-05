@@ -1,34 +1,561 @@
-[00:52:50] [Server thread/INFO]: Xygnus lost connection: Disconnected
-[00:52:50] [Server thread/INFO]: Xygnus left the game
-[00:52:50] [Server thread/INFO]: Disconnecting client Xygnus
-[00:52:58] [Server thread/INFO]: Xygnus[/127.134.15.166:51424] logged in with entity id 66612 at (-309.77560908374903, 65.0, -274.23950095067096)
-[00:52:58] [Server thread/INFO]: Sending server config values to client
-[00:52:58] [Server thread/INFO]: Xygnus joined the game
-[00:52:58] [Netty Server IO #21/INFO]: Receiving client config
-[00:52:59] [Netty Server IO #21/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
-[00:52:59] [Server thread/INFO]: Received secret request of Xygnus (15)
-[00:52:59] [Server thread/INFO]: Sent secret to Xygnus
-[00:53:11] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
-[00:54:22] [Server thread/INFO]: <Pendr_a_gon> aku udahan ya mba
-[00:54:28] [Server thread/INFO]: <Xygnus> hu um, aku juga
-[00:54:31] [Server thread/INFO]: <Xygnus> ngantuk
-[00:54:35] [Server thread/INFO]: <Pendr_a_gon> ok
-[00:54:38] [Server thread/INFO]: <Pendr_a_gon> byee
-[00:54:39] [Server thread/INFO]: <Xygnus> byeee
-[00:54:46] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
-[00:54:46] [Server thread/INFO]: Pendr_a_gon left the game
-[00:54:46] [Server thread/INFO]: Disconnecting client Pendr_a_gon
-[00:54:47] [Server thread/INFO]: Xygnus lost connection: Disconnected
-[00:54:47] [Server thread/INFO]: Xygnus left the game
-[00:54:47] [Server thread/INFO]: Disconnecting client Xygnus
-[04:21:33] [Server thread/INFO]: Stopping the server
-[04:21:33] [Server thread/INFO]: Stopping server
-[04:21:33] [Server thread/INFO]: Saving players
-[04:21:33] [Server thread/INFO]: Saving worlds
-[04:21:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:21:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04:21:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:21:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:07:04] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.11
+[20:07:04] [main/INFO]: Loading 84 mods:
+	- additionalstructures 4.1.0
+	- bettercombat 1.5.2+1.19
+	- blue_endless_jankson 1.2.1 via owo
+	- byg 2.0.0.13
+	- cardinal-components-base 5.0.2 via puzzleslib
+	- cardinal-components-block 5.0.2 via puzzleslib
+	- cardinal-components-chunk 5.0.2 via puzzleslib
+	- cardinal-components-entity 5.0.2 via puzzleslib
+	- cardinal-components-item 5.0.1 via polymorph
+	- cardinal-components-world 5.0.2 via puzzleslib
+	- chunkpregen 0.3.3
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- clumps 9.0.0+14
+	- com_electronwill_night-config_core 3.6.6 via byg
+	- com_electronwill_night-config_toml 3.6.6 via byg
+	- connectivity 1.19.2-3.7
+	- crawl 0.11.1
+	- elytraslot 6.0.0+1.19.2
+	- fabric-api 0.69.0+1.19.2
+	- fabric-api-base 0.4.13+0d0f210290 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.12+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.0.20+0d0f210290 via fabric-api
+	- fabric-block-api-v1 1.0.1+12bfe4ea90 via fabric-api
+	- fabric-command-api-v1 1.2.13+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.9+93d8cb8290 via fabric-api
+	- fabric-commands-v0 0.2.30+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.38+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.4.4+6064db2a90 via fabric-api
+	- fabric-convention-tags-v1 1.2.0+27265b3490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.7+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.3.3+ad31814d90 via fabric-api
+	- fabric-dimensions-v1 2.1.33+0d0f210290 via fabric-api
+	- fabric-entity-events-v1 1.5.2+9244241690 via fabric-api
+	- fabric-events-interaction-v0 0.4.31+6eb9a2a190 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.31+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.23+c6af733c90 via fabric-api
+	- fabric-item-api-v1 1.6.1+fa140d5990 via fabric-api
+	- fabric-item-groups-v0 0.3.36+9244241690 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.2+9244241690 via fabric-api
+	- fabric-loot-api-v2 1.1.10+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.13+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.5+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.21+33fbc73890 via fabric-api
+	- fabric-networking-api-v1 1.2.8+3b1d070f90 via fabric-api
+	- fabric-networking-v0 0.3.25+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.1.3+06e0e25190 via fabric-api
+	- fabric-particles-v1 1.0.12+79adfe0a90 via fabric-api
+	- fabric-registry-sync-v0 0.9.29+9244241690 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.17+0d0f210290 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.9+c6af733c90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.1.1+aae9039d90 via fabric-api
+	- fabric-resource-loader-v0 0.8.2+574a764890 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.4+1cc24b1b90 via fabric-api
+	- fabric-transfer-api-v1 2.1.3+9d081d6490 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.2+42d99c3290 via fabric-api
+	- fabricloader 0.14.11
+	- fallingtree 3.10.0
+	- ferritecore 5.0.3
+	- forgeconfigapiport 4.2.9
+	- fwaystones 3.0.5+mc1.19.2
+	- immersive_paintings 0.4.4+1.19.2
+	- inmis 2.7.1-1.19
+	- inmisaddon 1.0.3
+	- java 17
+	- leavesbegone 4.0.0
+	- lithium 0.10.4
+	- memoryleakfix 1.19.1-0.7.0
+	- minecraft 1.19.2
+	- mm 2.3 via crawl
+	- naturescompass 1.19.2-2.1.0-fabric
+	- nochatreports 1.19.2-v1.13.12
+	- omega-config 1.2.3-1.18.1 via inmis
+	- owo 0.8.2+1.19
+	- player-animator 0.4.0
+	- polymorph 0.46.1+1.19.2
+	- puzzleslib 4.3.12
+	- seasons 1.4-BETA+1.19
+	- spectrelib 0.11.0+1.19 via polymorph
+	- starlight 1.1.1+fabric.ae22326
+	- terrablender 2.0.1.130
+	- trinkets 3.4.1
+	- voicechat 1.19.2-2.3.23
+	- yigd 1.4.6
+[20:07:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/minecraft-modded-server/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:07:07] [main/INFO]: Compatibility level set to JAVA_17
+[20:07:07] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:07:07] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[20:07:07] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 1 override(s) found
+[20:07:07] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[20:07:07] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
+[20:07:07] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:07:07] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[20:07:08] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
+[20:07:08] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[20:07:08] [main/WARN]: Error loading class: twilightforest/util/EntityUtil (java.lang.ClassNotFoundException: twilightforest/util/EntityUtil)
+[20:07:11] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[20:07:14] [main/INFO]: Building unoptimized datafixer
+[20:07:16] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[20:07:17] [main/INFO]: BYG registries bootstrapped
+[20:07:17] [main/ERROR]: No data fixer registered for byg:boat
+[20:07:17] [main/ERROR]: No data fixer registered for byg:chest_boat
+[20:07:18] [main/INFO]: Initializing BYG network...
+[20:07:18] [main/INFO]: Initialized BYG network!
+[20:07:18] [main/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[20:07:18] [main/INFO]: Connectivity initialized
+[20:07:18] [main/INFO]: Is initializing.
+[20:07:18] [main/INFO]: Has successfully been initialized.
+[20:07:18] [main/ERROR]: No data fixer registered for immersive_paintings:painting
+[20:07:18] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
+[20:07:18] [main/INFO]: Constructing common components for mod leavesbegone
+[20:07:18] [main/INFO]: Definitely not up to no good
+[20:07:18] [main/INFO]: KONNICHIWA ZA WARUDO!
+[20:07:18] [main/INFO]: Default JVM text encoding is: windows-1252
+[20:07:18] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[20:07:18] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[20:07:18] [main/INFO]: Constructing common components for mod puzzleslib
+[20:07:18] [main/INFO]: Trying to read config file...
+[20:07:18] [main/INFO]: A config file was found, loading it..
+[20:07:18] [main/INFO]: Successfully loaded config file.
+[20:07:19] [main/INFO]: ".\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[20:07:19] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20:07:19] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[20:07:19] [main/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[20:07:19] [main/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[20:07:19] [main/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[20:07:19] [main/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[20:07:19] [main/INFO]: Compatibility version 15
+[20:07:19] [main/INFO]: Loading plugins
+[20:07:19] [main/INFO]: Loaded 0 plugin(s)
+[20:07:19] [main/INFO]: Initializing plugins
+[20:07:19] [main/INFO]: Initialized 0 plugin(s)
+[20:07:19] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:07:19] [main/INFO]: Found new data pack file/invisibleitemframes-v2-2-1.zip, loading it automatically
+[20:07:19] [main/INFO]: Found new data pack file/unlock all recipes v2.0.4.zip, loading it automatically
+[20:07:20] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[20:07:20] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[20:07:21] [main/INFO]: Loaded 7 recipes
+[20:07:21] [main/INFO]: ".\config\byg\settings.json5" was read.
+[20:07:22] [main/INFO]: Loaded 1622 advancements
+[20:07:22] [main/INFO]: Reloading graveyard
+[20:07:22] [main/INFO]: Reloading custom grave areas
+[20:07:22] [main/INFO]: Reloading grave shape (server side)
+[20:07:23] [main/WARN]: Failed to parse level-type betterx, defaulting to minecraft:normal
+[20:07:23] [main/INFO]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.class_3176
+[20:07:23] [main/INFO]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.class_3324
+[20:07:23] [main/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[20:07:24] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20:07:24] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[20:07:24] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[20:07:24] [main/INFO]: Applied 0 biome modifications to 0 of 138 new biomes in 3.619 ms
+[20:07:24] [main/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[20:07:24] [main/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[20:07:24] [main/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[20:07:24] [Server thread/INFO]: Loading server config for leavesbegone
+[20:07:24] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[20:07:24] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[20:07:24] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[20:07:24] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[20:07:24] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[20:07:24] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[20:07:24] [Server thread/INFO]: ".\config\byg\growing-patterns.json5" was read.
+[20:07:24] [Server thread/INFO]: ".\config\byg\trades.json5" was read.
+[20:07:24] [Server thread/INFO]: ".\config\byg\biomepedia.json5" was read.
+[20:07:24] [Server thread/INFO]: Created compressed zip back up for ".\config\byg" in ".\config\byg\backups\last_working_configs_backup.zip"
+[20:07:24] [Server thread/INFO]: BYG: Compostible Blocks Added!
+[20:07:24] [Server thread/INFO]: BYG: Added tillables!
+[20:07:24] [Server thread/INFO]: BYG: Added Flammables!
+[20:07:24] [Server thread/INFO]: BYG: "Load Complete" Event Complete!
+[20:07:24] [Server thread/INFO]: BYG: Added strippable Blocks...
+[20:07:24] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[20:07:24] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:07:24] [Server thread/INFO]: Loading properties
+[20:07:24] [Server thread/INFO]: Default game type: SURVIVAL
+[20:07:24] [Server thread/INFO]: Generating keypair
+[20:07:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:07:24] [Server thread/INFO]: Using default channel type
+[20:07:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:07:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:07:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:07:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:07:24] [Server thread/INFO]: Preparing level "world"
+[20:07:25] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[20:07:25] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[20:07:25] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[20:07:25] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
+[20:07:25] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[20:07:25] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[20:07:25] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[20:07:25] [Server thread/INFO]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
+[20:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:07:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:07:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:07:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:07:29] [Worker-Main-1/INFO]: Preparing spawn area: 37%
+[20:07:30] [Server thread/INFO]: Time elapsed: 4949 ms
+[20:07:30] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[20:07:30] [Server thread/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[20:07:30] [Server thread/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[20:07:30] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[20:07:30] [Server thread/INFO]: Done (5.490s)! For help, type "help"
+[20:07:30] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 10109 bytes (in 2 string chunks with the size of 10000)
+[20:07:30] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
+[20:07:30] [VoiceChatServerThread/INFO]: Server started at port 14723
+[20:07:30] [Server thread/INFO]: Loaded data from grave data file
+[20:07:40] [Server thread/INFO]: There are 4 data packs enabled: [vanilla (built-in)], [Fabric Mods (Fabric mod)], [file/invisibleitemframes-v2-2-1.zip (world)], [file/unlock all recipes v2.0.4.zip (world)]
+[20:07:40] [Server thread/INFO]: There are no more data packs available
+[20:08:56] [Server thread/INFO]: Executed 3 commands from function '8bm:advancements_off'
+[20:12:14] [Server thread/INFO]: Kompaktive[/127.0.0.1:50627] logged in with entity id 32 at (-218.90000805463382, 93.5625, -279.9120631866992)
+[20:12:14] [Server thread/INFO]: Sending server config values to client
+[20:12:15] [Server thread/INFO]: Kompaktive joined the game
+[20:12:16] [Netty Server IO #5/INFO]: Receiving client config
+[20:12:16] [Netty Server IO #5/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[20:12:16] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[20:12:17] [Server thread/INFO]: Sent secret to Kompaktive
+[20:12:20] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[20:12:30] [Server thread/INFO]: Saving grave backup data
+[20:14:41] [Server thread/INFO]: [Kompaktive: Gave 1 [Glow Item Frame] to Kompaktive]
+[20:14:59] [Server thread/INFO]: [Kompaktive: Set the time to 18000]
+[20:15:02] [Server thread/INFO]: [Kompaktive: Set the time to 1000]
+[20:15:51] [Server thread/INFO]: [Kompaktive: Set the time to 18000]
+[20:15:59] [Server thread/INFO]: [Kompaktive: Set the time to 1000]
+[20:16:21] [Server thread/INFO]: [Kompaktive: Set the time to 18000]
+[20:16:24] [Server thread/INFO]: [Kompaktive: Set the time to 1000]
+[20:19:11] [Server thread/INFO]: Pendr_a_gon[/127.178.4.1:50660] logged in with entity id 1519 at (-434.2531196601174, 69.0, -335.0978770982604)
+[20:19:11] [Server thread/INFO]: Sending server config values to client
+[20:19:11] [Server thread/INFO]: Pendr_a_gon joined the game
+[20:19:15] [Netty Server IO #6/INFO]: Receiving client config
+[20:19:16] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[20:19:16] [Netty Server IO #6/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[20:19:16] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[20:19:22] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[20:21:04] [Server thread/INFO]: <Kompaktive> ak gak install resource packnya ras
+[20:21:23] [Server thread/INFO]: <Kompaktive> terlalu ribet sama gak bisa digabung sama resource pack lain
+[20:21:37] [Server thread/INFO]: <Kompaktive> tpi ak pnya solusi menarik
+[20:21:51] [Server thread/INFO]: <Kompaktive> ak install datapack yg bisa bkin item frame invisible pake shear
+[20:22:12] [Server thread/INFO]: <Kompaktive> support glow item frame jga
+[20:22:36] [Server thread/INFO]: <Pendr_a_gon> udah dipasang?
+[20:22:42] [Server thread/INFO]: <Kompaktive> udah
+[20:22:49] [Server thread/INFO]: <Pendr_a_gon> oo nice
+[20:23:03] [Server thread/INFO]: <Pendr_a_gon> tinggal rclick framenya pake shear?
+[20:23:23] [Server thread/INFO]: <Kompaktive> jongkok + klik kanan sambil pegang shear
+[20:23:28] [Server thread/INFO]: <Kompaktive> crosshair arahin ke item frame
+[20:25:07] [Server thread/INFO]: Xygnus[/127.69.161.76:50717] logged in with entity id 2745 at (-305.4759151102298, 70.9375, -263.5420085933292)
+[20:25:07] [Server thread/INFO]: Sending server config values to client
+[20:25:07] [Server thread/INFO]: Xygnus joined the game
+[20:25:12] [Netty Server IO #10/INFO]: Receiving client config
+[20:25:13] [Server thread/INFO]: Received secret request of Xygnus (15)
+[20:25:13] [Server thread/INFO]: Sent secret to Xygnus
+[20:25:13] [Netty Server IO #10/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[20:25:43] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[20:27:52] [Server thread/INFO]: <Kompaktive> ak jga install datapack yg ngeunlock smua recipe
+[20:27:56] [Server thread/INFO]: <Kompaktive> jdi gk usah buka wiki lagi
+[20:28:11] [Server thread/INFO]: <Pendr_a_gon> bukannya pake command bisa
+[20:28:42] [Server thread/INFO]: <Kompaktive> iya datapack itu isinya command function
+[20:28:48] [Server thread/INFO]: <Kompaktive> jdi bukan mod
+[20:36:50] [Server thread/INFO]: <Xygnus> test
+[20:37:07] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[20:37:07] [Server thread/INFO]: Xygnus left the game
+[20:37:07] [Server thread/INFO]: Disconnecting client Xygnus
+[20:37:07] [Server thread/WARN]: handleDisconnection() called twice
+[20:37:28] [Server thread/INFO]: Xygnus[/127.69.161.76:50872] logged in with entity id 5135 at (-295.6763316686058, 63.0, -292.24226566220665)
+[20:37:28] [Server thread/INFO]: Sending server config values to client
+[20:37:28] [Server thread/INFO]: Xygnus joined the game
+[20:37:31] [Server thread/INFO]: Received secret request of Xygnus (15)
+[20:37:31] [Netty Server IO #14/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[20:37:31] [Server thread/INFO]: Sent secret to Xygnus
+[20:37:31] [Netty Server IO #14/INFO]: Receiving client config
+[20:37:41] [Server thread/INFO]: <Kompaktive> waoww mnc ku down
+[20:37:47] [Server thread/INFO]: <Kompaktive> 4mbps upload speed
+[20:37:59] [Server thread/INFO]: <Kompaktive> 3.6
+[20:38:27] [Server thread/INFO]: <Kompaktive> 2.3
+[20:38:31] [Server thread/INFO]: <Pendr_a_gon> waw
+[20:38:33] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[20:38:33] [Server thread/INFO]: Xygnus left the game
+[20:38:33] [Server thread/INFO]: Disconnecting client Xygnus
+[20:38:36] [Server thread/INFO]: <Pendr_a_gon> gara2 ujan?
+[20:38:37] [Server thread/INFO]: <Kompaktive> gak bisa maen ini wkwkwk
+[20:38:39] [Server thread/INFO]: <Kompaktive> iya
+[20:38:46] [Server thread/INFO]: <Kompaktive> baru kali ini
+[20:39:15] [Server thread/WARN]: Pendr_a_gon moved too quickly! -0.015297394140645793,-0.12129684053920187,10.257125206513138
+[20:39:50] [Server thread/INFO]: Xygnus[/127.69.161.76:50925] logged in with entity id 5641 at (-295.6763316686058, 63.0, -292.24226566220665)
+[20:39:50] [Server thread/INFO]: Sending server config values to client
+[20:39:50] [Server thread/INFO]: Xygnus joined the game
+[20:39:52] [Netty Server IO #28/INFO]: Receiving client config
+[20:39:52] [Netty Server IO #28/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[20:39:52] [Server thread/INFO]: Received secret request of Xygnus (15)
+[20:39:52] [Server thread/INFO]: Sent secret to Xygnus
+[20:40:49] [Server thread/INFO]: Kompaktive drowned
+[20:40:49] [Server thread/INFO]: Grave spawned at: -264, 61, -260 | minecraft:overworld
+[20:40:49] [Server thread/INFO]: Grave at -264, 61, -260 was replaced with Block{yigd:grave}
+[20:41:15] [Server thread/INFO]: Grave at -264, 61, -260 was replaced with Block{minecraft:water}
+[20:41:15] [Server thread/INFO]: Kompaktive is retrieving their grave at -264, 61, -260
+[20:41:15] [Server thread/INFO]: Kompaktive retrieved the items from the grave
+[20:41:50] [Server thread/INFO]: Xygnus lost connection: Timed out
+[20:41:50] [Server thread/INFO]: Xygnus left the game
+[20:41:50] [Server thread/INFO]: Disconnecting client Xygnus
+[20:42:16] [Server thread/INFO]: Xygnus[/127.69.161.76:50936] logged in with entity id 6074 at (-295.6763316686058, 63.0, -292.24226566220665)
+[20:42:16] [Server thread/INFO]: Sending server config values to client
+[20:42:16] [Server thread/INFO]: Xygnus joined the game
+[20:42:16] [Netty Server IO #31/INFO]: Receiving client config
+[20:42:16] [Netty Server IO #31/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[20:42:16] [Server thread/INFO]: Received secret request of Xygnus (15)
+[20:42:16] [Server thread/INFO]: Sent secret to Xygnus
+[20:42:30] [Server thread/INFO]: Saving grave backup data
+[20:42:40] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[20:43:10] [Server thread/INFO]: <Xygnus> test
+[20:44:28] [Server thread/INFO]: <Pendr_a_gon> apanya
+[20:44:32] [Server thread/INFO]: <Xygnus> shovel
+[20:44:36] [Server thread/INFO]: <Pendr_a_gon> oh ok
+[20:54:19] [Server thread/INFO]: <Kompaktive> back to single player
+[20:54:23] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[20:54:23] [Server thread/INFO]: Kompaktive left the game
+[20:54:23] [Server thread/INFO]: Disconnecting client Kompaktive
+[20:54:24] [Server thread/INFO]: <Xygnus> :O
+[21:10:10] [Server thread/WARN]: Xygnus moved too quickly! 1.7983097007365814,2.7531999805212024,9.847461387105568
+[21:12:46] [Server thread/INFO]: Xygnus drowned
+[21:12:46] [Server thread/INFO]: Grave spawned at: -178, 61, -185 | minecraft:overworld
+[21:12:47] [Server thread/INFO]: Grave at -178, 61, -185 was replaced with Block{yigd:grave}
+[21:12:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=157, y=27, z=-154} class_2338{x=157, y=28, z=-154}
+[21:13:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=162, y=30, z=-145} class_2338{x=163, y=31, z=-145}
+[21:13:44] [Server thread/INFO]: Grave at -178, 61, -185 was replaced with Block{minecraft:water}
+[21:13:44] [Server thread/INFO]: Xygnus is retrieving their grave at -178, 61, -185
+[21:13:44] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[21:14:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=151, y=9, z=-133} class_2338{x=150, y=11, z=-134}
+[21:16:05] [Server thread/INFO]: <Pendr_a_gon> T-T
+[21:16:12] [Server thread/INFO]: <Xygnus> kenapa?
+[21:16:24] [Server thread/INFO]: <Pendr_a_gon> laper wokwokw
+[21:16:36] [Worker-Main-12/WARN]: Empty height range: [6 below top-6 above bottom]
+[21:16:36] [Worker-Main-11/WARN]: Empty height range: [6 below top-6 above bottom]
+[21:16:36] [Worker-Main-11/WARN]: Empty height range: [6 below top-6 above bottom]
+[21:17:30] [Server thread/INFO]: Saving grave backup data
+[21:17:41] [Server thread/INFO]: <Xygnus> laper real life apa minecraft XD
+[21:17:53] [Server thread/INFO]: <Pendr_a_gon> real life XD
+[21:18:05] [Server thread/INFO]: <Pendr_a_gon> asem emg
+[21:18:16] [Server thread/INFO]: <Pendr_a_gon> dah makan malem trus makan pudding
+[21:18:23] [Server thread/INFO]: <Xygnus> ya makan dlu dong T.T
+[21:18:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=174, y=21, z=-147} class_2338{x=173, y=22, z=-147}
+[21:19:12] [Server thread/INFO]: <Xygnus> ooooww
+[21:19:36] [Server thread/INFO]: <Pendr_a_gon> T-T
+[21:20:56] [Server thread/INFO]: <Xygnus> udah makan malem tapi masih laper gitu ya hmmmm
+[21:21:23] [Server thread/INFO]: <Pendr_a_gon> yoi
+[21:21:27] [Server thread/INFO]: <Pendr_a_gon> apa gara2 pudding
+[21:22:29] [Server thread/INFO]: <Xygnus> porsi makannya yg kurang itu wkwkwk
+[21:23:06] [Server thread/INFO]: <Pendr_a_gon> asumsi awal sih gitu, tapi piring penuh pas makan malem T.T
+[21:24:40] [Server thread/INFO]: <Pendr_a_gon> ngga kayaknya
+[21:24:48] [Server thread/INFO]: <Pendr_a_gon> ngemil pudding lagi deh
+[21:25:04] [Server thread/INFO]: <Xygnus> enak pudding T.T
+[21:25:21] [Server thread/INFO]: <Pendr_a_gon> yoi dong
+[21:25:35] [Server thread/INFO]: <Pendr_a_gon> beli di indomart 14k tinggal tambah air trus masak api kecil
+[21:25:58] [Server thread/INFO]: <Xygnus> disini gaada cemilan, adanya nasi doang :')
+[21:26:35] [Server thread/INFO]: <Pendr_a_gon> ngemil nasi dong
+[21:27:00] [Server thread/INFO]: <Xygnus> gendut ntar aku
+[21:28:43] [Server thread/INFO]: <Xygnus> enak ih makan pudding, jadi kepengen T.T
+[21:29:55] [Server thread/INFO]: <Pendr_a_gon> wkwkwk beli gih
+[21:30:42] [Server thread/INFO]: <Pendr_a_gon> bikin apa
+[21:30:50] [Server thread/INFO]: <Xygnus> blacksmith
+[21:31:00] [Server thread/INFO]: <Xygnus> aneh ya :c
+[21:31:04] [Server thread/INFO]: <Pendr_a_gon> wait
+[21:31:42] [Server thread/INFO]: <Pendr_a_gon> blacksmith kan
+[21:31:48] [Server thread/INFO]: <Xygnus> iya
+[21:31:56] [Server thread/INFO]: <Pendr_a_gon> anvil rusak tu lumayan
+[21:31:59] [Server thread/INFO]: <Xygnus> kaget aku sama suaranya wkwk
+[21:32:17] [Server thread/INFO]: <Xygnus> anvilnya ditaro situ?
+[21:32:21] [Server thread/INFO]: <Pendr_a_gon> terserah
+[21:32:42] [Server thread/INFO]: <Xygnus> yaudah deh sementara taro situ dlu
+[21:38:19] [Server thread/INFO]: <Pendr_a_gon> kacanya kemana
+[21:38:32] [Server thread/INFO]: <Xygnus> mau aku perluas lgi itu ruangannya
+[21:39:21] [Server thread/INFO]: <Pendr_a_gon> mana
+[21:39:26] [Server thread/INFO]: <Pendr_a_gon> meteor
+[21:40:09] [Server thread/INFO]: <Pendr_a_gon> mau quartz ga
+[21:40:25] [Server thread/INFO]: <Xygnus> quartz buat apa?
+[21:40:31] [Server thread/INFO]: <Pendr_a_gon> building
+[21:40:37] [Server thread/INFO]: <Xygnus> :O
+[21:40:39] [Server thread/INFO]: <Xygnus> mau
+[21:40:39] [Server thread/INFO]: <Pendr_a_gon> pure putih soalnya
+[21:40:48] [Server thread/INFO]: <Pendr_a_gon> itu udah mba ambil
+[21:40:56] [Server thread/INFO]: <Xygnus> oh iya deng
+[21:41:00] [Server thread/INFO]: <Xygnus> makasihh
+[21:45:10] [Server thread/INFO]: <Pendr_a_gon> terbang
+[21:45:17] [Server thread/INFO]: <Xygnus> dan jatoh
+[21:46:45] [Server thread/INFO]: Xygnus drowned
+[21:46:45] [Server thread/INFO]: Grave spawned at: -282, 61, -290 | minecraft:overworld
+[21:46:45] [Server thread/INFO]: Grave at -282, 61, -290 was replaced with Block{yigd:grave}
+[21:47:02] [Server thread/INFO]: <Pendr_a_gon> njir low
+[21:47:07] [Server thread/INFO]: <Xygnus> >:C
+[21:47:15] [Server thread/INFO]: Pendr_a_gon has made the advancement [Fishy Business]
+[21:47:30] [Server thread/INFO]: Saving grave backup data
+[21:47:52] [Server thread/INFO]: <Xygnus> test
+[21:48:00] [Server thread/INFO]: Grave at -282, 61, -290 was replaced with Block{minecraft:water}
+[21:48:00] [Server thread/INFO]: Xygnus is retrieving their grave at -282, 61, -290
+[21:48:00] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[21:48:14] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[21:48:14] [Server thread/INFO]: Pendr_a_gon left the game
+[21:48:14] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[21:48:17] [Server thread/INFO]: Pendr_a_gon[/127.178.4.1:51236] logged in with entity id 24251 at (-260.35775523921615, 63.0, -286.7406948632735)
+[21:48:17] [Server thread/INFO]: Sending server config values to client
+[21:48:17] [Server thread/INFO]: Pendr_a_gon joined the game
+[21:48:17] [Netty Server IO #2/INFO]: Receiving client config
+[21:48:17] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[21:48:17] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[21:48:17] [Netty Server IO #2/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[21:48:19] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[21:50:13] [Server thread/WARN]: Xygnus moved too quickly! 2.972347592891367,0.49520087700592086,-9.684819023279772
+[21:52:30] [Server thread/INFO]: Saving grave backup data
+[21:55:05] [Server thread/INFO]: <Pendr_a_gon> kentang
+[21:55:19] [Server thread/INFO]: <Xygnus> :O
+[21:55:51] [Server thread/INFO]: <Pendr_a_gon> afk makan dulu wkwk
+[21:56:06] [Server thread/INFO]: <Xygnus> met makan wkwkw
+[21:56:11] [Server thread/INFO]: <Xygnus> makan lgi akhirnya XD
+[21:56:20] [Server thread/INFO]: <Pendr_a_gon> laparr
+[22:06:46] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[22:06:46] [Server thread/INFO]: Pendr_a_gon left the game
+[22:06:46] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[22:06:49] [Server thread/INFO]: Pendr_a_gon[/127.178.4.1:51316] logged in with entity id 26826 at (-280.18162855080516, 69.0, -315.49980095826214)
+[22:06:49] [Server thread/INFO]: Sending server config values to client
+[22:06:49] [Server thread/INFO]: Pendr_a_gon joined the game
+[22:06:50] [Netty Server IO #4/INFO]: Receiving client config
+[22:06:50] [Netty Server IO #4/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[22:06:50] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[22:06:50] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[22:06:54] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[22:24:28] [Server thread/INFO]: Xygnus was blown up by Creeper
+[22:24:28] [Server thread/INFO]: Grave spawned at: -428, 67, -254 | minecraft:overworld
+[22:24:39] [Server thread/INFO]: <Pendr_a_gon> waw
+[22:25:05] [Server thread/INFO]: <Xygnus> .
+[22:25:26] [Server thread/INFO]: <Xygnus> ...........................................
+[22:25:27] [Server thread/INFO]: <Pendr_a_gon> tau tempatnya??
+[22:25:41] [Server thread/INFO]: <Pendr_a_gon> XD
+[22:26:18] [Server thread/INFO]: Xygnus lost connection: Timed out
+[22:26:18] [Server thread/INFO]: Xygnus left the game
+[22:26:18] [Server thread/INFO]: Disconnecting client Xygnus
+[22:26:29] [Server thread/INFO]: Xygnus[/127.69.161.76:51549] logged in with entity id 31056 at (-411.1260433794263, 70.76636799395752, -274.3009362364332)
+[22:26:29] [Server thread/INFO]: Sending server config values to client
+[22:26:29] [Server thread/INFO]: Xygnus joined the game
+[22:26:29] [Server thread/INFO]: Received secret request of Xygnus (15)
+[22:26:29] [Server thread/INFO]: Sent secret to Xygnus
+[22:26:29] [Netty Server IO #6/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[22:26:29] [Netty Server IO #6/INFO]: Receiving client config
+[22:27:30] [Server thread/INFO]: Saving grave backup data
+[22:28:05] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[22:28:20] [Server thread/INFO]: <Xygnus> test
+[22:28:53] [Server thread/INFO]: Grave at -428, 67, -254 was replaced with Block{minecraft:air}
+[22:28:53] [Server thread/INFO]: Xygnus is retrieving their grave at -428, 67, -254
+[22:28:53] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[22:29:14] [Server thread/INFO]: <Xygnus> koneksiku busuk :)
+[22:29:33] [Server thread/INFO]: <Pendr_a_gon> XL?
+[22:29:44] [Server thread/INFO]: <Xygnus> hu um
+[22:32:30] [Server thread/INFO]: Saving grave backup data
+[22:32:46] [Server thread/WARN]: Xygnus moved too quickly! 5.653556815154161,0.49520087700592086,8.547455197109684
+[22:33:29] [Server thread/INFO]: Xygnus lost connection: Timed out
+[22:33:29] [Server thread/INFO]: Xygnus left the game
+[22:33:29] [Server thread/INFO]: Disconnecting client Xygnus
+[22:34:45] [Server thread/INFO]: Xygnus[/127.69.161.76:51655] logged in with entity id 32472 at (-323.60501312355643, 63.796735600668704, -321.65044532563246)
+[22:34:45] [Server thread/INFO]: Sending server config values to client
+[22:34:45] [Server thread/INFO]: Xygnus joined the game
+[22:34:45] [Netty Server IO #25/INFO]: Receiving client config
+[22:34:45] [Server thread/INFO]: Received secret request of Xygnus (15)
+[22:34:45] [Server thread/INFO]: Sent secret to Xygnus
+[22:34:45] [Netty Server IO #25/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[22:35:47] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[22:35:47] [Server thread/INFO]: Xygnus left the game
+[22:35:47] [Server thread/INFO]: Disconnecting client Xygnus
+[22:36:12] [Server thread/INFO]: Xygnus[/127.69.161.76:51702] logged in with entity id 32717 at (-323.60501312355643, 63.796735600668704, -321.65044532563246)
+[22:36:12] [Server thread/INFO]: Sending server config values to client
+[22:36:12] [Server thread/INFO]: Xygnus joined the game
+[22:36:12] [Netty Server IO #2/INFO]: Receiving client config
+[22:36:12] [Netty Server IO #2/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[22:36:12] [Server thread/INFO]: Received secret request of Xygnus (15)
+[22:36:12] [Server thread/INFO]: Sent secret to Xygnus
+[22:36:59] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[22:37:28] [Server thread/INFO]: <Xygnus> test
+[22:38:07] [Server thread/INFO]: <Pendr_a_gon> mbaa
+[22:38:13] [Server thread/INFO]: <Xygnus> yoww
+[22:40:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=41, z=-193} class_2338{x=-10, y=41, z=-194}
+[22:41:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=7, y=37, z=-201} class_2338{x=7, y=39, z=-204}
+[22:45:41] [Server thread/INFO]: Xygnus has made the advancement [What a Deal!]
+[22:59:06] [Server thread/INFO]: <Pendr_a_gon> mba
+[22:59:10] [Server thread/INFO]: <Xygnus> hu um
+[22:59:11] [Server thread/INFO]: <Pendr_a_gon> ada redstone ngga
+[22:59:17] [Server thread/INFO]: <Xygnus> bentar aku cke
+[22:59:55] [Server thread/INFO]: <Xygnus> adanya redstone dust 3
+[22:59:59] [Server thread/INFO]: <Pendr_a_gon> minta 2
+[23:00:12] [Server thread/INFO]: <Xygnus> okey
+[23:04:10] [Server thread/WARN]: Pendr_a_gon moved too quickly! 0.25683592700323743,-0.17944760852853392,-10.289438308457022
+[23:08:25] [Server thread/INFO]: Pendr_a_gon lost connection: You logged in from another location
+[23:08:25] [Server thread/INFO]: Pendr_a_gon left the game
+[23:08:25] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[23:08:25] [Server thread/INFO]: Pendr_a_gon[/127.243.160.120:51796] logged in with entity id 40779 at (-304.51855487750095, 92.0, -232.83517640117125)
+[23:08:25] [Server thread/INFO]: Sending server config values to client
+[23:08:25] [Server thread/INFO]: Pendr_a_gon joined the game
+[23:08:25] [Netty Server IO #3/INFO]: Receiving client config
+[23:08:25] [Netty Server IO #3/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[23:08:25] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[23:08:25] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[23:08:37] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[23:13:20] [Server thread/INFO]: <Xygnus> :p
+[23:15:55] [VoiceChatPacketProcessingThread/INFO]: Player 56b826db-92a5-3046-b8c0-be8f72a01531 timed out
+[23:15:55] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Xygnus
+[23:15:55] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Xygnus
+[23:16:21] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[23:16:21] [Server thread/INFO]: Xygnus left the game
+[23:16:21] [Server thread/INFO]: Disconnecting client Xygnus
+[23:17:44] [Server thread/INFO]: Xygnus[/127.69.161.76:51857] logged in with entity id 42817 at (-279.0372206221699, 72.0, -320.7167024935221)
+[23:17:44] [Server thread/INFO]: Sending server config values to client
+[23:17:44] [Server thread/INFO]: Xygnus joined the game
+[23:17:44] [Server thread/INFO]: Received secret request of Xygnus (15)
+[23:17:44] [Server thread/INFO]: Sent secret to Xygnus
+[23:17:44] [Netty Server IO #18/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[23:17:45] [Netty Server IO #18/INFO]: Receiving client config
+[23:18:57] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[23:18:57] [Server thread/INFO]: Xygnus left the game
+[23:18:57] [Server thread/INFO]: Disconnecting client Xygnus
+[23:19:15] [Server thread/INFO]: Xygnus[/127.69.161.76:51881] logged in with entity id 43159 at (-279.0372206221699, 72.0, -320.7167024935221)
+[23:19:15] [Server thread/INFO]: Sending server config values to client
+[23:19:15] [Server thread/INFO]: Xygnus joined the game
+[23:19:15] [Netty Server IO #25/INFO]: Receiving client config
+[23:19:15] [Server thread/INFO]: Received secret request of Xygnus (15)
+[23:19:15] [Netty Server IO #25/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[23:19:15] [Server thread/INFO]: Sent secret to Xygnus
+[23:20:27] [Server thread/INFO]: <Pendr_a_gon> tes\
+[23:22:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@5cc2a7b7[id=56b826db-92a5-3046-b8c0-be8f72a01531,name=Xygnus,properties={},legacy=false] (/127.69.161.76:51943) lost connection: Disconnected
+[23:23:15] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[23:23:15] [Server thread/INFO]: Xygnus left the game
+[23:23:15] [Server thread/INFO]: Disconnecting client Xygnus
+[23:23:29] [Server thread/INFO]: Xygnus[/127.69.161.76:51966] logged in with entity id 44036 at (-279.0372206221699, 72.0, -320.7167024935221)
+[23:23:29] [Server thread/INFO]: Sending server config values to client
+[23:23:29] [Server thread/INFO]: Xygnus joined the game
+[23:23:30] [Netty Server IO #5/INFO]: Receiving client config
+[23:23:30] [Server thread/INFO]: Received secret request of Xygnus (15)
+[23:23:30] [Server thread/INFO]: Sent secret to Xygnus
+[23:23:30] [Netty Server IO #5/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[23:25:29] [Server thread/INFO]: Xygnus lost connection: Timed out
+[23:25:29] [Server thread/INFO]: Xygnus left the game
+[23:25:29] [Server thread/INFO]: Disconnecting client Xygnus
+[23:26:19] [VoiceChatPacketProcessingThread/INFO]: Player 23c0aa95-0f73-3803-83af-6284fbb6f689 timed out
+[23:26:19] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Pendr_a_gon
+[23:26:19] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Pendr_a_gon
+[23:26:28] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[23:26:28] [Server thread/INFO]: Pendr_a_gon left the game
+[23:26:28] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[23:27:15] [Server thread/INFO]: [Server] stop
+[23:27:27] [Server thread/INFO]: Stopping the server
+[23:27:27] [Server thread/INFO]: Stopping server
+[23:27:27] [Server thread/INFO]: Saving players
+[23:27:27] [Server thread/INFO]: Saving worlds
+[23:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
