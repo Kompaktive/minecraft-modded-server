@@ -209,12 +209,6 @@
     },
     "done": true
   },
-  "vanillatweaks:root": {
-    "criteria": {
-      "tick": "2023-01-05 20:19:11 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-12-19 23:01:15 +0700"
@@ -674,6 +668,12 @@
   "byg:recipes/byg.byg/zelkova_slab": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2023-01-07 21:35:16 +0700"
     },
     "done": true
   },
@@ -2423,12 +2423,6 @@
     },
     "done": true
   },
-  "vanillatweaks:unlock_all_recipes": {
-    "criteria": {
-      "tick": "2023-01-05 20:19:11 +0700"
-    },
-    "done": true
-  },
   "byg:recipes/byg.byg/cherry_boat": {
     "criteria": {
       "has_planks": "2023-01-01 22:01:54 +0700"
@@ -2770,8 +2764,11 @@
       "minecraft:enderman": "2022-12-21 23:14:36 +0700",
       "minecraft:silverfish": "2022-12-22 20:49:57 +0700",
       "minecraft:stray": "2023-01-05 22:31:33 +0700",
+      "minecraft:endermite": "2023-01-08 20:40:41 +0700",
       "minecraft:vex": "2022-12-29 21:54:55 +0700",
-      "minecraft:zombie": "2022-12-19 21:14:42 +0700"
+      "minecraft:zombie": "2022-12-19 21:14:42 +0700",
+      "minecraft:drowned": "2023-01-08 21:48:51 +0700",
+      "minecraft:zombie_villager": "2023-01-08 23:39:35 +0700"
     },
     "done": false
   },
@@ -3555,6 +3552,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2023-01-08 12:23:34 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2022-12-25 19:02:01 +0700"
@@ -3564,6 +3567,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2022-12-21 21:05:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-01-08 23:54:24 +0700"
     },
     "done": true
   },
@@ -4302,6 +4311,12 @@
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2023-01-08 23:08:56 +0700"
     },
     "done": true
   },
@@ -6736,13 +6751,19 @@
       "byg:prairie": "2022-12-25 20:03:58 +0700",
       "byg:temperate_grove": "2022-12-25 19:44:49 +0700",
       "byg:orchard": "2022-12-25 19:44:48 +0700",
+      "byg:fragment_forest": "2023-01-08 10:51:35 +0700",
       "byg:autumnal_forest": "2022-12-19 19:56:23 +0700",
+      "byg:rose_fields": "2023-01-08 10:30:18 +0700",
       "byg:quartz_desert": "2022-12-22 21:02:38 +0700",
+      "byg:cika_woods": "2023-01-08 21:59:21 +0700",
       "byg:firecracker_shrubland": "2022-12-25 19:45:18 +0700",
       "byg:weeping_witch_forest": "2022-12-24 11:38:52 +0700",
       "byg:embur_bog": "2022-12-19 23:01:53 +0700",
+      "byg:jacaranda_forest": "2023-01-07 22:57:11 +0700",
+      "byg:autumnal_valley": "2023-01-07 22:40:29 +0700",
       "byg:aspen_forest": "2022-12-27 21:57:25 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:14 +0700",
+      "byg:twilight_meadow": "2023-01-07 22:39:20 +0700",
       "byg:cherry_blossom_forest": "2023-01-01 21:34:42 +0700",
       "byg:cardinal_tundra": "2022-12-19 21:27:55 +0700",
       "byg:nightshade_forest": "2022-12-26 21:15:49 +0700",
@@ -6751,6 +6772,7 @@
       "byg:temperate_rainforest": "2022-12-27 21:57:54 +0700",
       "byg:maple_taiga": "2022-12-22 22:31:20 +0700",
       "byg:frosted_coniferous_forest": "2022-12-19 21:44:13 +0700",
+      "byg:dacite_shore": "2023-01-08 21:58:59 +0700",
       "byg:frosted_taiga": "2022-12-19 21:44:04 +0700",
       "byg:borealis_grove": "2022-12-21 21:17:50 +0700"
     },
@@ -7977,23 +7999,31 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-12-25 20:09:12 +0700",
+      "minecraft:old_growth_pine_taiga": "2023-01-07 22:50:30 +0700",
       "minecraft:taiga": "2022-12-25 20:14:41 +0700",
+      "minecraft:deep_ocean": "2023-01-08 21:53:35 +0700",
       "minecraft:frozen_river": "2022-12-19 19:57:22 +0700",
       "minecraft:sunflower_plains": "2022-12-25 19:37:08 +0700",
+      "minecraft:birch_forest": "2023-01-07 23:05:35 +0700",
       "minecraft:windswept_hills": "2022-12-19 21:27:49 +0700",
+      "minecraft:bamboo_jungle": "2023-01-07 22:54:02 +0700",
       "minecraft:beach": "2022-12-27 21:57:35 +0700",
       "minecraft:dark_forest": "2022-12-27 21:57:53 +0700",
+      "minecraft:sparse_jungle": "2023-01-07 22:57:21 +0700",
       "minecraft:river": "2022-12-22 20:32:33 +0700",
       "minecraft:snowy_plains": "2022-12-22 20:11:57 +0700",
       "minecraft:stony_shore": "2022-12-25 19:36:21 +0700",
       "minecraft:dripstone_caves": "2022-12-19 20:27:25 +0700",
       "minecraft:snowy_taiga": "2022-12-19 20:34:42 +0700",
       "minecraft:grove": "2022-12-24 11:45:45 +0700",
+      "minecraft:cold_ocean": "2023-01-08 21:51:16 +0700",
       "minecraft:forest": "2022-12-24 11:45:14 +0700",
       "minecraft:lush_caves": "2023-01-05 20:53:53 +0700",
       "minecraft:ice_spikes": "2022-12-24 10:51:43 +0700",
       "minecraft:frozen_ocean": "2023-01-03 01:46:21 +0700",
       "minecraft:windswept_forest": "2022-12-19 21:26:49 +0700",
+      "minecraft:jungle": "2023-01-07 22:53:47 +0700",
+      "minecraft:ocean": "2023-01-08 21:38:41 +0700",
       "minecraft:snowy_beach": "2022-12-22 22:34:55 +0700",
       "minecraft:old_growth_birch_forest": "2022-12-27 22:00:46 +0700",
       "minecraft:meadow": "2022-12-24 11:39:57 +0700",
@@ -8393,6 +8423,12 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2023-01-07 21:12:40 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_brown_mushroom": "2022-12-21 22:25:39 +0700"
@@ -8421,6 +8457,7 @@
       "bread": "2022-12-21 20:24:34 +0700",
       "golden_apple": "2022-12-21 20:26:53 +0700",
       "rotten_flesh": "2022-12-19 21:17:21 +0700",
+      "salmon": "2023-01-07 22:49:45 +0700",
       "melon_slice": "2023-01-03 01:00:55 +0700",
       "cooked_chicken": "2022-12-19 21:21:43 +0700",
       "cod": "2023-01-05 22:39:35 +0700",
