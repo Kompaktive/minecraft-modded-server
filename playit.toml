@@ -1,20 +1,27 @@
-last_update = 1672400842098
+last_update = 1673273124893
 api_url = "https://api.playit.cloud/agent"
-ping_target_addresses = ["23.133.216.1:5530", "ping.playit.gg"]
+ping_target_addresses = ["23.133.216.1:5530", "ping.ply.gg"]
 control_address = "control.ply.gg"
 refresh_from_api = true
 api_refresh_rate = 5000
 ping_interval = 5000
-secret_key = "13a50d4f4a8eee078ac26a5a8fbf1275253a650f07bac66f5b463329ff50b4fa"
+secret_key = "24c39ee819e19e48f05b3fea74135c35ae6c0c110e2ccbccb008cc758e904474"
 
 [[mappings]]
+name = "Minecraft voice chat"
 proto = "udp"
-tunnel_ip = "147.185.221.194"
-tunnel_from_port = 56214
-local_port = 24454
+tunnel_ip = "147.185.221.211"
+tunnel_from_port = 14723
 
 [[mappings]]
 proto = "tcp"
-tunnel_ip = "147.185.221.180"
-tunnel_from_port = 20974
+tunnel_ip = "147.185.221.212"
+tunnel_from_port = 36004
 local_port = 25565
+
+[[mappings]]
+name = "Project Zomboid"
+proto = "udp"
+tunnel_ip = "147.185.221.212"
+tunnel_from_port = 36004
+local_port = 16261

@@ -2873,6 +2873,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2023-01-09 06:47:03 +0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-12-19 22:56:54 +0700"
@@ -6438,6 +6444,7 @@
       "minecraft:windswept_forest": "2022-12-19 21:26:51 +0700",
       "minecraft:snowy_beach": "2022-12-21 21:14:39 +0700",
       "minecraft:windswept_gravelly_hills": "2023-01-07 21:37:43 +0700",
+      "minecraft:savanna": "2023-01-09 06:45:25 +0700",
       "minecraft:plains": "2022-12-26 21:33:43 +0700"
     },
     "done": false
@@ -9057,6 +9064,12 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:12:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2023-01-09 06:47:03 +0700"
     },
     "done": true
   },
