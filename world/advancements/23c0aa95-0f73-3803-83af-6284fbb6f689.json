@@ -2746,8 +2746,10 @@
       "minecraft:blaze": "2022-12-21 22:49:36 +0700",
       "minecraft:pillager": "2022-12-22 22:15:18 +0700",
       "minecraft:skeleton": "2022-12-19 21:39:00 +0700",
+      "minecraft:elder_guardian": "2023-01-10 20:37:59 +0700",
       "minecraft:ravager": "2022-12-29 21:50:49 +0700",
       "minecraft:ghast": "2022-12-29 20:14:25 +0700",
+      "minecraft:guardian": "2023-01-10 20:34:45 +0700",
       "minecraft:vindicator": "2022-12-29 21:48:28 +0700",
       "minecraft:magma_cube": "2022-12-26 21:43:49 +0700",
       "minecraft:spider": "2022-12-24 11:47:42 +0700",
@@ -4605,6 +4607,12 @@
   "minecraft:recipes/building_blocks/exposed_cut_copper": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-01-10 22:25:08 +0700"
     },
     "done": true
   },
@@ -6768,6 +6776,7 @@
       "byg:cardinal_tundra": "2022-12-19 21:27:55 +0700",
       "byg:nightshade_forest": "2022-12-26 21:15:49 +0700",
       "byg:shulkren_forest": "2022-12-26 21:15:10 +0700",
+      "byg:coniferous_forest": "2023-01-10 20:28:51 +0700",
       "byg:basalt_barrera": "2022-12-27 21:57:08 +0700",
       "byg:temperate_rainforest": "2022-12-27 21:57:54 +0700",
       "byg:maple_taiga": "2022-12-22 22:31:20 +0700",
@@ -8019,11 +8028,13 @@
       "minecraft:cold_ocean": "2023-01-08 21:51:16 +0700",
       "minecraft:forest": "2022-12-24 11:45:14 +0700",
       "minecraft:lush_caves": "2023-01-05 20:53:53 +0700",
+      "minecraft:deep_cold_ocean": "2023-01-10 20:31:35 +0700",
       "minecraft:ice_spikes": "2022-12-24 10:51:43 +0700",
       "minecraft:frozen_ocean": "2023-01-03 01:46:21 +0700",
       "minecraft:windswept_forest": "2022-12-19 21:26:49 +0700",
       "minecraft:jungle": "2023-01-07 22:53:47 +0700",
       "minecraft:ocean": "2023-01-08 21:38:41 +0700",
+      "minecraft:old_growth_spruce_taiga": "2023-01-10 20:28:52 +0700",
       "minecraft:snowy_beach": "2022-12-22 22:34:55 +0700",
       "minecraft:old_growth_birch_forest": "2022-12-27 22:00:46 +0700",
       "minecraft:meadow": "2022-12-24 11:39:57 +0700",
@@ -8453,6 +8464,7 @@
       "beef": "2022-12-29 22:02:57 +0700",
       "apple": "2022-12-19 20:57:21 +0700",
       "potato": "2023-01-05 00:42:02 +0700",
+      "cooked_cod": "2023-01-10 20:55:05 +0700",
       "mutton": "2022-12-19 21:51:27 +0700",
       "bread": "2022-12-21 20:24:34 +0700",
       "golden_apple": "2022-12-21 20:26:53 +0700",
