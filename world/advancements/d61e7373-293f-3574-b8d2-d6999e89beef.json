@@ -341,6 +341,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2023-01-11 20:44:55 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2022-12-19 22:34:08 +0700"
@@ -586,6 +592,7 @@
       "minecraft:piglin": "2022-12-26 21:44:11 +0700",
       "minecraft:silverfish": "2022-12-26 20:22:01 +0700",
       "minecraft:enderman": "2022-12-27 21:17:45 +0700",
+      "minecraft:endermite": "2023-01-11 21:14:49 +0700",
       "minecraft:zombie": "2022-12-19 21:14:49 +0700"
     },
     "done": false
@@ -794,6 +801,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-01-11 22:16:16 +0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2022-12-21 22:53:35 +0700"
@@ -821,6 +834,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2022-12-26 21:42:31 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-01-11 20:40:49 +0700"
     },
     "done": true
   },
@@ -983,6 +1002,12 @@
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2023-01-10 20:23:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2023-01-11 20:44:55 +0700"
     },
     "done": true
   },
@@ -1363,6 +1388,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-01-11 22:13:38 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2022-12-19 21:27:42 +0700"
@@ -1591,6 +1622,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-01-11 20:44:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2023-01-11 22:18:58 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2022-12-19 22:41:35 +0700"
@@ -1642,6 +1685,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2022-12-19 22:58:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2023-01-11 22:14:28 +0700"
     },
     "done": true
   },
@@ -1756,6 +1805,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2022-12-25 22:12:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-01-11 22:14:23 +0700"
     },
     "done": true
   },
@@ -1930,6 +1985,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2023-01-11 22:14:28 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2022-12-19 22:30:54 +0700"
@@ -2029,6 +2090,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-12-19 22:46:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-01-11 22:14:23 +0700"
     },
     "done": true
   },
@@ -2233,6 +2300,12 @@
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-19 22:35:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-01-11 22:03:34 +0700"
     },
     "done": true
   },
@@ -2467,6 +2540,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-12-19 22:41:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2023-01-11 22:16:16 +0700"
     },
     "done": true
   },
@@ -2731,7 +2810,9 @@
       "byg:quartz_desert": "2022-12-26 21:44:39 +0700",
       "byg:embur_bog": "2022-12-26 21:40:15 +0700",
       "byg:shattered_glacier": "2022-12-21 23:04:43 +0700",
+      "byg:autumnal_valley": "2023-01-11 22:17:41 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:17 +0700",
+      "byg:twilight_meadow": "2023-01-11 22:17:50 +0700",
       "byg:cardinal_tundra": "2022-12-19 21:27:52 +0700",
       "byg:maple_taiga": "2022-12-21 22:59:11 +0700",
       "byg:frosted_coniferous_forest": "2022-12-19 22:49:43 +0700",
@@ -2899,6 +2980,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-12-22 22:24:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-01-11 20:40:49 +0700"
     },
     "done": true
   },
