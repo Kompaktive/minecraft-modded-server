@@ -2129,6 +2129,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2023-01-15 21:08:50 +0700"
+    },
+    "done": false
+  },
   "byg:recipes/byg.byg/embur_door": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:25:10 +0700"
@@ -3984,6 +3990,7 @@
       "byg:rose_fields": "2023-01-10 20:11:24 +0700",
       "byg:quartz_desert": "2023-01-04 20:50:49 +0700",
       "byg:embur_bog": "2022-12-21 22:33:55 +0700",
+      "byg:autumnal_valley": "2023-01-15 21:17:27 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:20 +0700",
       "byg:cardinal_tundra": "2022-12-19 21:51:29 +0700",
       "byg:coniferous_forest": "2023-01-10 20:29:01 +0700",
@@ -5578,6 +5585,12 @@
   "byg:recipes/byg.byg/zelkova_planks": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:25:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2023-01-15 21:08:58 +0700"
     },
     "done": true
   },
