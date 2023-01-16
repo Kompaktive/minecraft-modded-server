@@ -1,0 +1,75 @@
+{
+  "byg:biomepedia_gift": {
+    "criteria": {
+      "tick": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "8bm:8bm.invis_itemframes": {
+    "criteria": {
+      "Version 2.2.1": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "8bm:global/triggers/8bm.adv_off": {
+    "criteria": {
+      "tick": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "seasons:recipes/season_calendar": {
+    "criteria": {
+      "has_clock": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "global:the8bitmonkey": {
+    "criteria": {
+      "trigger": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-01-16 19:37:32 +0700"
+    },
+    "done": false
+  },
+  "seasons:recipes/season_detector": {
+    "criteria": {
+      "has_detector": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_compass": "2023-01-16 19:37:29 +0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
