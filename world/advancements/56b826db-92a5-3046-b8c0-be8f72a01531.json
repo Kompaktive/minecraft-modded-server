@@ -443,6 +443,12 @@
     },
     "done": true
   },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2023-01-18 22:12:19 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-12-19 22:46:22 +0700"
@@ -4307,6 +4313,12 @@
     },
     "done": true
   },
+  "vanillatweaks:anti_creeper_grief": {
+    "criteria": {
+      "tick": "2023-01-18 22:12:19 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2022-12-19 21:23:28 +0700"
@@ -4670,6 +4682,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2022-12-19 21:21:29 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2023-01-18 22:12:19 +0700"
     },
     "done": true
   },
@@ -8379,6 +8397,12 @@
   "byg:recipes/byg.byg/mahogany_planks": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:25:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2023-01-18 21:19:28 +0700"
     },
     "done": true
   },

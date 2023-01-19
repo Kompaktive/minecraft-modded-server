@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2023-01-18 22:09:33 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-12-19 23:01:15 +0700"
@@ -3616,6 +3622,12 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2023-01-18 22:09:34 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/packed_ice": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:19:15 +0700"
@@ -6980,6 +6992,12 @@
     },
     "done": true
   },
+  "vanillatweaks:anti_creeper_grief": {
+    "criteria": {
+      "tick": "2023-01-18 22:09:33 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2022-12-19 20:56:26 +0700"
@@ -7127,6 +7145,12 @@
   "minecraft:recipes/building_blocks/purpur_stairs": {
     "criteria": {
       "has_purpur_block": "2022-12-26 21:12:21 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2023-01-18 22:09:33 +0700"
     },
     "done": true
   },

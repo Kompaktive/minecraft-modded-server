@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2023-01-18 22:13:01 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-12-24 11:29:24 +0700"
@@ -6913,6 +6919,12 @@
     },
     "done": true
   },
+  "vanillatweaks:anti_creeper_grief": {
+    "criteria": {
+      "tick": "2023-01-18 22:13:01 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2022-12-19 20:55:39 +0700"
@@ -7054,6 +7066,12 @@
   "minecraft:recipes/building_blocks/purpur_stairs": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:12:16 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2023-01-18 22:13:01 +0700"
     },
     "done": true
   },
