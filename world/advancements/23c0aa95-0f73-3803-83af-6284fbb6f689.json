@@ -5818,6 +5818,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2023-01-19 21:43:49 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2022-12-26 21:13:52 +0700"
@@ -6799,6 +6805,7 @@
       "byg:weeping_witch_forest": "2022-12-24 11:38:52 +0700",
       "byg:magma_wastes": "2023-01-15 21:27:28 +0700",
       "byg:embur_bog": "2022-12-19 23:01:53 +0700",
+      "byg:zelkova_forest": "2023-01-19 22:01:58 +0700",
       "byg:jacaranda_forest": "2023-01-07 22:57:11 +0700",
       "byg:wailing_garth": "2023-01-15 22:22:48 +0700",
       "byg:autumnal_valley": "2023-01-07 22:40:29 +0700",
@@ -7331,6 +7338,12 @@
   "minecraft:recipes/building_blocks/magenta_terracotta": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:19:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-01-19 20:45:49 +0700"
     },
     "done": true
   },
@@ -8092,6 +8105,7 @@
       "minecraft:warm_ocean": "2023-01-16 21:30:14 +0700",
       "minecraft:deep_lukewarm_ocean": "2023-01-16 21:29:48 +0700",
       "minecraft:old_growth_birch_forest": "2022-12-27 22:00:46 +0700",
+      "minecraft:deep_dark": "2023-01-19 20:45:29 +0700",
       "minecraft:meadow": "2022-12-24 11:39:57 +0700",
       "minecraft:windswept_gravelly_hills": "2022-12-19 21:44:31 +0700",
       "minecraft:savanna": "2022-12-25 19:45:29 +0700",
@@ -8527,6 +8541,7 @@
       "rotten_flesh": "2022-12-19 21:17:21 +0700",
       "salmon": "2023-01-07 22:49:45 +0700",
       "melon_slice": "2023-01-03 01:00:55 +0700",
+      "golden_carrot": "2023-01-19 21:20:39 +0700",
       "cooked_chicken": "2022-12-19 21:21:43 +0700",
       "cod": "2023-01-05 22:39:35 +0700",
       "cooked_salmon": "2022-12-19 21:39:23 +0700",

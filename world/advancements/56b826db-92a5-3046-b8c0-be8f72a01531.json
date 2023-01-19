@@ -3998,6 +3998,7 @@
   "byg:adventure/oh_the_biomes_youll_go": {
     "criteria": {
       "byg:coconino_meadow": "2023-01-04 22:51:54 +0700",
+      "byg:fragment_forest": "2023-01-19 20:41:21 +0700",
       "byg:autumnal_forest": "2022-12-19 20:44:21 +0700",
       "byg:rose_fields": "2023-01-10 20:11:24 +0700",
       "byg:quartz_desert": "2023-01-04 20:50:49 +0700",
@@ -4988,6 +4989,12 @@
   "byg:recipes/byg.byg/white_mangrove_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:25:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-01-19 20:45:58 +0700"
     },
     "done": true
   },
@@ -6447,6 +6454,7 @@
       "minecraft:windswept_forest": "2022-12-19 21:26:53 +0700",
       "minecraft:old_growth_spruce_taiga": "2023-01-10 20:29:05 +0700",
       "minecraft:snowy_beach": "2022-12-26 21:28:51 +0700",
+      "minecraft:deep_dark": "2023-01-19 20:45:34 +0700",
       "minecraft:meadow": "2023-01-10 20:22:49 +0700",
       "minecraft:windswept_gravelly_hills": "2023-01-05 22:26:03 +0700",
       "minecraft:savanna": "2023-01-17 23:20:33 +0700",

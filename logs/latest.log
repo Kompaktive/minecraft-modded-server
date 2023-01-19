@@ -1,5 +1,5 @@
-[06:14:47] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.11
-[06:14:47] [main/INFO]: Loading 85 mods:
+[19:33:51] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.11
+[19:33:52] [main/INFO]: Loading 85 mods:
 	- additionalstructures 4.1.0
 	- bettercombat 1.5.4+1.19
 	- blue_endless_jankson 1.2.1 via owo
@@ -85,155 +85,269 @@
 	- trinkets 3.4.1
 	- voicechat 1.19.2-2.3.23
 	- yigd 1.4.6
-[06:14:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/minecraft-modded-server/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[06:14:50] [main/INFO]: Compatibility level set to JAVA_17
-[06:14:50] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
-[06:14:50] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
-[06:14:50] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 1 override(s) found
-[06:14:51] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
-[06:14:51] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
-[06:14:51] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[06:14:51] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[06:14:51] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
-[06:14:51] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
-[06:14:51] [main/WARN]: Error loading class: twilightforest/util/EntityUtil (java.lang.ClassNotFoundException: twilightforest/util/EntityUtil)
-[06:14:53] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
-[06:14:56] [main/INFO]: Building unoptimized datafixer
-[06:14:58] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
-[06:14:59] [main/INFO]: BYG registries bootstrapped
-[06:15:00] [main/ERROR]: No data fixer registered for byg:boat
-[06:15:00] [main/ERROR]: No data fixer registered for byg:chest_boat
-[06:15:00] [main/INFO]: Initializing BYG network...
-[06:15:00] [main/INFO]: Initialized BYG network!
-[06:15:00] [main/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
-[06:15:00] [main/INFO]: Connectivity initialized
-[06:15:00] [main/INFO]: Is initializing.
-[06:15:00] [main/INFO]: Has successfully been initialized.
-[06:15:00] [main/ERROR]: No data fixer registered for immersive_paintings:painting
-[06:15:00] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
-[06:15:00] [main/INFO]: Constructing common components for mod leavesbegone
-[06:15:00] [main/INFO]: Definitely not up to no good
-[06:15:00] [main/INFO]: KONNICHIWA ZA WARUDO!
-[06:15:00] [main/INFO]: Default JVM text encoding is: windows-1252
-[06:15:00] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
-[06:15:00] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
-[06:15:01] [main/INFO]: Constructing common components for mod puzzleslib
-[06:15:01] [main/INFO]: Trying to read config file...
-[06:15:01] [main/INFO]: A config file was found, loading it..
-[06:15:01] [main/INFO]: Successfully loaded config file.
-[06:15:01] [main/INFO]: ".\config\byg\overworld\byg-overworld-biomes.json5" was read.
-[06:15:01] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[06:15:01] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[06:15:01] [main/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
-[06:15:01] [main/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
-[06:15:01] [main/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
-[06:15:01] [main/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
-[06:15:01] [main/INFO]: Compatibility version 15
-[06:15:01] [main/INFO]: Loading plugins
-[06:15:01] [main/INFO]: Loaded 0 plugin(s)
-[06:15:01] [main/INFO]: Initializing plugins
-[06:15:01] [main/INFO]: Initialized 0 plugin(s)
-[06:15:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:15:02] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
-[06:15:03] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
-[06:15:04] [main/INFO]: Loaded 7 recipes
-[06:15:04] [main/INFO]: ".\config\byg\settings.json5" was read.
-[06:15:04] [main/INFO]: Loaded 1623 advancements
-[06:15:04] [main/INFO]: Reloading graveyard
-[06:15:04] [main/INFO]: Reloading custom grave areas
-[06:15:04] [main/INFO]: Reloading grave shape (server side)
-[06:15:05] [main/WARN]: Failed to parse level-type betterx, defaulting to minecraft:normal
-[06:15:05] [main/INFO]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.class_3176
-[06:15:05] [main/INFO]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.class_3324
-[06:15:05] [main/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
-[06:15:06] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[06:15:06] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
-[06:15:06] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
-[06:15:06] [main/INFO]: Applied 0 biome modifications to 0 of 138 new biomes in 3.965 ms
-[06:15:06] [main/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
-[06:15:06] [main/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
-[06:15:06] [main/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
-[06:15:06] [Server thread/INFO]: Loading server config for leavesbegone
-[06:15:06] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
-[06:15:06] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
-[06:15:06] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
-[06:15:06] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
-[06:15:06] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
-[06:15:06] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
-[06:15:06] [Server thread/INFO]: ".\config\byg\growing-patterns.json5" was read.
-[06:15:06] [Server thread/INFO]: ".\config\byg\trades.json5" was read.
-[06:15:06] [Server thread/INFO]: ".\config\byg\biomepedia.json5" was read.
-[06:15:06] [Server thread/INFO]: Created compressed zip back up for ".\config\byg" in ".\config\byg\backups\last_working_configs_backup.zip"
-[06:15:06] [Server thread/INFO]: BYG: Compostible Blocks Added!
-[06:15:06] [Server thread/INFO]: BYG: Added tillables!
-[06:15:06] [Server thread/INFO]: BYG: Added Flammables!
-[06:15:06] [Server thread/INFO]: BYG: "Load Complete" Event Complete!
-[06:15:06] [Server thread/INFO]: BYG: Added strippable Blocks...
-[06:15:06] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
-[06:15:06] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[06:15:06] [Server thread/INFO]: Loading properties
-[06:15:06] [Server thread/INFO]: Default game type: SURVIVAL
-[06:15:06] [Server thread/INFO]: Generating keypair
-[06:15:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:15:06] [Server thread/INFO]: Using default channel type
-[06:15:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:15:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:15:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:15:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:15:06] [Server thread/INFO]: Preparing level "world"
-[06:15:07] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
-[06:15:07] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
-[06:15:07] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
-[06:15:07] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
-[06:15:07] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
-[06:15:07] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
-[06:15:07] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
-[06:15:07] [Server thread/INFO]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
-[06:15:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:15:10] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:10] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:10] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:15:11] [Worker-Main-1/INFO]: Preparing spawn area: 40%
-[06:15:12] [Server thread/INFO]: Time elapsed: 4984 ms
-[06:15:12] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
-[06:15:12] [Server thread/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
-[06:15:12] [Server thread/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
-[06:15:12] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
-[06:15:12] [Server thread/INFO]: Done (5.696s)! For help, type "help"
-[06:15:12] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 10109 bytes (in 2 string chunks with the size of 10000)
-[06:15:12] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
-[06:15:12] [VoiceChatServerThread/INFO]: Server started at port 14723
-[06:15:12] [Server thread/INFO]: Loaded data from grave data file
-[06:15:16] [Server thread/INFO]: Kompaktive[/127.0.0.1:61149] logged in with entity id 36 at (-218.76905997398174, 93.5625, -280.30890899462685)
-[06:15:16] [Server thread/INFO]: Sending server config values to client
-[06:15:16] [Netty Server IO #1/INFO]: Receiving client config
-[06:15:16] [Server thread/INFO]: Kompaktive joined the game
-[06:15:17] [Netty Server IO #1/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
-[06:15:18] [Server thread/INFO]: Received secret request of Kompaktive (15)
-[06:15:18] [Server thread/INFO]: Sent secret to Kompaktive
-[06:15:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2929ms or 58 ticks behind
-[06:20:15] [Server thread/INFO]: Saving grave backup data
-[06:23:14] [Server thread/INFO]: [Kompaktive: Killed 14 entities]
-[06:30:16] [Server thread/INFO]: [Kompaktive: Killed 15 entities]
-[06:37:09] [Server thread/INFO]: [Kompaktive: Killed 22 entities]
-[06:51:28] [Server thread/INFO]: [Kompaktive: Killed 20 entities]
-[06:59:41] [Server thread/INFO]: Kompaktive lost connection: Disconnected
-[06:59:41] [Server thread/INFO]: Kompaktive left the game
-[06:59:41] [Server thread/INFO]: Disconnecting client Kompaktive
-[06:59:45] [Server thread/INFO]: Stopping the server
-[06:59:45] [Server thread/INFO]: Stopping server
-[06:59:45] [Server thread/INFO]: Saving players
-[06:59:45] [Server thread/INFO]: Saving worlds
-[06:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:59:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:59:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:33:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/minecraft-modded-server/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[19:33:55] [main/INFO]: Compatibility level set to JAVA_17
+[19:33:55] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:33:55] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[19:33:55] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 1 override(s) found
+[19:33:55] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[19:33:55] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
+[19:33:55] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:33:56] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[19:33:56] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
+[19:33:56] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[19:33:56] [main/WARN]: Error loading class: twilightforest/util/EntityUtil (java.lang.ClassNotFoundException: twilightforest/util/EntityUtil)
+[19:33:59] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[19:34:02] [main/INFO]: Building unoptimized datafixer
+[19:34:04] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[19:34:04] [main/INFO]: BYG registries bootstrapped
+[19:34:05] [main/ERROR]: No data fixer registered for byg:boat
+[19:34:05] [main/ERROR]: No data fixer registered for byg:chest_boat
+[19:34:05] [main/INFO]: Initializing BYG network...
+[19:34:05] [main/INFO]: Initialized BYG network!
+[19:34:05] [main/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[19:34:05] [main/INFO]: Connectivity initialized
+[19:34:06] [main/INFO]: Is initializing.
+[19:34:06] [main/INFO]: Has successfully been initialized.
+[19:34:06] [main/ERROR]: No data fixer registered for immersive_paintings:painting
+[19:34:06] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
+[19:34:06] [main/INFO]: Constructing common components for mod leavesbegone
+[19:34:06] [main/INFO]: Definitely not up to no good
+[19:34:06] [main/INFO]: KONNICHIWA ZA WARUDO!
+[19:34:06] [main/INFO]: Default JVM text encoding is: windows-1252
+[19:34:06] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[19:34:06] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[19:34:06] [main/INFO]: Constructing common components for mod puzzleslib
+[19:34:06] [main/INFO]: Trying to read config file...
+[19:34:06] [main/INFO]: A config file was found, loading it..
+[19:34:06] [main/INFO]: Successfully loaded config file.
+[19:34:06] [main/INFO]: ".\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[19:34:06] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:34:06] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:34:06] [main/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[19:34:06] [main/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[19:34:06] [main/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[19:34:06] [main/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[19:34:06] [main/INFO]: Compatibility version 15
+[19:34:06] [main/INFO]: Loading plugins
+[19:34:06] [main/INFO]: Loaded 0 plugin(s)
+[19:34:06] [main/INFO]: Initializing plugins
+[19:34:06] [main/INFO]: Initialized 0 plugin(s)
+[19:34:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:34:08] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[19:34:08] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[19:34:09] [main/INFO]: Loaded 7 recipes
+[19:34:09] [main/INFO]: ".\config\byg\settings.json5" was read.
+[19:34:09] [main/INFO]: Loaded 1623 advancements
+[19:34:09] [main/INFO]: Reloading graveyard
+[19:34:09] [main/INFO]: Reloading custom grave areas
+[19:34:09] [main/INFO]: Reloading grave shape (server side)
+[19:34:10] [main/WARN]: Failed to parse level-type betterx, defaulting to minecraft:normal
+[19:34:10] [main/INFO]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.class_3176
+[19:34:10] [main/INFO]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.class_3324
+[19:34:10] [main/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[19:34:10] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:34:10] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[19:34:11] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[19:34:11] [main/INFO]: Applied 0 biome modifications to 0 of 138 new biomes in 4.243 ms
+[19:34:11] [main/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[19:34:11] [main/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[19:34:11] [main/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[19:34:11] [Server thread/INFO]: Loading server config for leavesbegone
+[19:34:11] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[19:34:11] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[19:34:11] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[19:34:11] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[19:34:11] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[19:34:11] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[19:34:11] [Server thread/INFO]: ".\config\byg\growing-patterns.json5" was read.
+[19:34:11] [Server thread/INFO]: ".\config\byg\trades.json5" was read.
+[19:34:11] [Server thread/INFO]: ".\config\byg\biomepedia.json5" was read.
+[19:34:11] [Server thread/INFO]: Created compressed zip back up for ".\config\byg" in ".\config\byg\backups\last_working_configs_backup.zip"
+[19:34:11] [Server thread/INFO]: BYG: Compostible Blocks Added!
+[19:34:11] [Server thread/INFO]: BYG: Added tillables!
+[19:34:11] [Server thread/INFO]: BYG: Added Flammables!
+[19:34:11] [Server thread/INFO]: BYG: "Load Complete" Event Complete!
+[19:34:11] [Server thread/INFO]: BYG: Added strippable Blocks...
+[19:34:11] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[19:34:11] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[19:34:11] [Server thread/INFO]: Loading properties
+[19:34:11] [Server thread/INFO]: Default game type: SURVIVAL
+[19:34:11] [Server thread/INFO]: Generating keypair
+[19:34:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:34:11] [Server thread/INFO]: Using default channel type
+[19:34:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:34:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:34:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:34:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:34:11] [Server thread/INFO]: Preparing level "world"
+[19:34:12] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[19:34:12] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[19:34:12] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[19:34:12] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
+[19:34:12] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[19:34:12] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[19:34:12] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[19:34:12] [Server thread/INFO]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
+[19:34:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:34:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[19:34:15] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:34:16] [Worker-Main-11/INFO]: Preparing spawn area: 21%
+[19:34:16] [Server thread/INFO]: Time elapsed: 4494 ms
+[19:34:16] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[19:34:16] [Server thread/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[19:34:16] [Server thread/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[19:34:16] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[19:34:16] [Server thread/INFO]: Done (5.066s)! For help, type "help"
+[19:34:16] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 10109 bytes (in 2 string chunks with the size of 10000)
+[19:34:16] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
+[19:34:16] [VoiceChatServerThread/INFO]: Server started at port 14723
+[19:34:16] [Server thread/INFO]: Loaded data from grave data file
+[19:38:52] [Server thread/INFO]: Kompaktive[/127.0.0.1:50155] logged in with entity id 36 at (-186.64694008025234, 109.0, -264.9881827865528)
+[19:38:52] [Server thread/INFO]: Sending server config values to client
+[19:38:52] [Server thread/INFO]: Kompaktive joined the game
+[19:38:53] [Netty Server IO #1/INFO]: Receiving client config
+[19:38:54] [Netty Server IO #1/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[19:38:54] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[19:38:54] [Server thread/INFO]: Sent secret to Kompaktive
+[19:38:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2995ms or 59 ticks behind
+[19:38:58] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[19:39:19] [Server thread/INFO]: Saving grave backup data
+[19:45:26] [Server thread/INFO]: [Kompaktive: Killed 19 entities]
+[19:45:30] [Server thread/INFO]: [Kompaktive: Killed 2 entities]
+[19:50:16] [Server thread/INFO]: Pendr_a_gon[/127.251.145.196:50584] logged in with entity id 2987 at (-996.7558097577969, 191.0, -574.7638568973517)
+[19:50:16] [Server thread/INFO]: Sending server config values to client
+[19:50:16] [Server thread/INFO]: Pendr_a_gon joined the game
+[19:50:21] [Netty Server IO #4/INFO]: Receiving client config
+[19:50:23] [Netty Server IO #4/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[19:50:23] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[19:50:23] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[19:50:28] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[19:51:30] [Server thread/INFO]: [Kompaktive: Killed 27 entities]
+[19:58:03] [Server thread/INFO]: Xygnus[/127.185.219.39:50820] logged in with entity id 4619 at (-234.78925496588394, 68.0, -337.1577767729865)
+[19:58:03] [Server thread/INFO]: Sending server config values to client
+[19:58:03] [Server thread/INFO]: Xygnus joined the game
+[19:58:06] [Netty Server IO #12/INFO]: Receiving client config
+[19:58:08] [Server thread/INFO]: Received secret request of Xygnus (15)
+[19:58:08] [Netty Server IO #12/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[19:58:08] [Server thread/INFO]: Sent secret to Xygnus
+[19:58:15] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[19:58:42] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[19:58:42] [Server thread/INFO]: Xygnus left the game
+[19:58:42] [Server thread/INFO]: Disconnecting client Xygnus
+[19:58:48] [Server thread/INFO]: Xygnus[/127.89.99.240:50848] logged in with entity id 5078 at (-234.78925496588394, 68.0, -337.1577767729865)
+[19:58:48] [Server thread/INFO]: Sending server config values to client
+[19:58:48] [Server thread/INFO]: Xygnus joined the game
+[19:58:48] [Netty Server IO #15/INFO]: Receiving client config
+[19:58:48] [Netty Server IO #15/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[19:58:48] [Server thread/INFO]: Received secret request of Xygnus (15)
+[19:58:48] [Server thread/INFO]: Sent secret to Xygnus
+[19:58:50] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[20:00:07] [Server thread/INFO]: [Kompaktive: Killed 22 entities]
+[20:18:42] [Server thread/WARN]: Kompaktive moved too quickly! -75.82799098745556,-10.0,46.78686905894148
+[20:18:42] [Server thread/WARN]: Kompaktive moved too quickly! -75.82799098745556,-10.0,46.78686905894148
+[20:22:27] [Server thread/INFO]: [Kompaktive: Gave 1 [Netherrack] to Kompaktive]
+[20:27:02] [Server thread/INFO]: <Pendr_a_gon> zamn
+[20:27:08] [Server thread/INFO]: <Xygnus> :o
+[20:28:42] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[20:28:42] [Server thread/INFO]: Pendr_a_gon left the game
+[20:28:42] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[20:28:45] [Server thread/INFO]: Pendr_a_gon[/127.251.145.196:51521] logged in with entity id 13210 at (-234.79606298753765, 72.0, -353.32201695945804)
+[20:28:45] [Server thread/INFO]: Sending server config values to client
+[20:28:45] [Server thread/INFO]: Pendr_a_gon joined the game
+[20:28:45] [Netty Server IO #19/INFO]: Receiving client config
+[20:28:45] [Netty Server IO #19/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[20:28:45] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[20:28:45] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[20:28:55] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[20:30:42] [Server thread/INFO]: Xygnus was impaled by Kompaktive
+[20:30:42] [Server thread/INFO]: Grave spawned at: -281, 69, -318 | minecraft:overworld
+[20:30:50] [Server thread/INFO]: Grave at -281, 69, -318 was replaced with Block{minecraft:air}
+[20:30:50] [Server thread/INFO]: Xygnus is retrieving their grave at -281, 69, -318
+[20:30:50] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[20:34:19] [Server thread/INFO]: Saving grave backup data
+[20:45:49] [Server thread/INFO]: Pendr_a_gon has made the advancement [Sneak 100]
+[20:45:58] [Server thread/INFO]: Xygnus has made the advancement [Sneak 100]
+[20:46:10] [Server thread/INFO]: Kompaktive has made the advancement [Sneak 100]
+[20:55:38] [Server thread/INFO]: [Kompaktive: Played sound minecraft:entity.creeper.primed to Xygnus]
+[21:08:47] [Server thread/INFO]: Xygnus was obliterated by a sonically-charged shriek
+[21:08:47] [Server thread/INFO]: Grave spawned at: -566, -45, 136 | minecraft:overworld
+[21:09:19] [Server thread/INFO]: Saving grave backup data
+[21:11:19] [Server thread/INFO]: <Kompaktive> xygnus butuh teleport?
+[21:11:22] [Server thread/INFO]: <Kompaktive> ndak? oke
+[21:11:24] [Server thread/INFO]: <Xygnus> yes
+[21:11:34] [Server thread/INFO]: [Kompaktive: Teleported Xygnus to Kompaktive]
+[21:17:40] [Server thread/INFO]: Grave at -566, -45, 136 was replaced with Block{minecraft:air}
+[21:17:40] [Server thread/INFO]: Xygnus is retrieving their grave at -566, -45, 136
+[21:17:40] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[21:19:19] [Server thread/INFO]: Saving grave backup data
+[21:40:32] [Server thread/WARN]: Pendr_a_gon moved too quickly! -14.138638035905615,-1.3127325168851058,-10.386917974635253
+[21:40:42] [Server thread/WARN]: Pendr_a_gon moved wrongly!
+[21:41:10] [Server thread/WARN]: Pendr_a_gon moved wrongly!
+[21:41:25] [Server thread/INFO]: Pendr_a_gon experienced kinetic energy
+[21:41:25] [Server thread/INFO]: Grave spawned at: -594, 22, 181 | minecraft:overworld
+[21:41:26] [Server thread/WARN]: Pendr_a_gon moved wrongly!
+[21:43:16] [Server thread/INFO]: Grave at -594, 22, 181 was replaced with Block{minecraft:air}
+[21:43:16] [Server thread/INFO]: Pendr_a_gon is retrieving their grave at -594, 22, 181
+[21:43:16] [Server thread/INFO]: Pendr_a_gon retrieved the items from the grave
+[21:43:49] [Server thread/INFO]: Pendr_a_gon has completed the challenge [It Spreads]
+[21:44:19] [Server thread/INFO]: Saving grave backup data
+[21:57:11] [Server thread/WARN]: Xygnus moved too quickly! 0.773474512636426,-10.601107927003312,0.40844168430481886
+[21:57:15] [Server thread/WARN]: Xygnus moved too quickly! 0.0,-11.694736062225495,0.0
+[22:00:50] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[22:00:50] [Server thread/INFO]: Xygnus left the game
+[22:00:50] [Server thread/INFO]: Disconnecting client Xygnus
+[22:00:50] [Server thread/WARN]: handleDisconnection() called twice
+[22:01:13] [Server thread/INFO]: Xygnus[/127.89.99.240:53619] logged in with entity id 27061 at (-441.9356878003705, 123.0, 23.80700478271384)
+[22:01:13] [Server thread/INFO]: Sending server config values to client
+[22:01:13] [Server thread/INFO]: Xygnus joined the game
+[22:01:19] [Netty Server IO #26/INFO]: Receiving client config
+[22:01:19] [Server thread/INFO]: Received secret request of Xygnus (15)
+[22:01:19] [Server thread/INFO]: Sent secret to Xygnus
+[22:01:19] [Netty Server IO #26/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[22:02:22] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[22:03:32] [Server thread/INFO]: <Kompaktive> ak udahan dlu. mau makan pizza :v
+[22:03:35] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[22:03:35] [Server thread/INFO]: Kompaktive left the game
+[22:03:35] [Server thread/INFO]: Disconnecting client Kompaktive
+[22:16:39] [Server thread/INFO]: <Xygnus> .
+[22:16:56] [Server thread/INFO]: <Pendr_a_gon> knp?
+[22:17:13] [Server thread/INFO]: <Xygnus> ngelag
+[22:17:54] [Server thread/INFO]: <Xygnus> ngebunuh squid delay 10 detik an T.T
+[22:35:14] [Server thread/INFO]: Xygnus lost connection: Timed out
+[22:35:14] [Server thread/INFO]: Xygnus left the game
+[22:35:14] [Server thread/INFO]: Disconnecting client Xygnus
+[22:35:24] [Server thread/INFO]: Xygnus[/127.185.219.39:54507] logged in with entity id 35807 at (-295.5, 84.0, -230.5)
+[22:35:24] [Server thread/INFO]: Sending server config values to client
+[22:35:24] [Server thread/INFO]: Xygnus joined the game
+[22:35:25] [Netty Server IO #3/INFO]: Receiving client config
+[22:35:25] [Server thread/INFO]: Received secret request of Xygnus (15)
+[22:35:25] [Netty Server IO #3/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[22:35:25] [Server thread/INFO]: Sent secret to Xygnus
+[22:35:48] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[22:36:27] [Server thread/INFO]: <Xygnus> .
+[22:40:27] [Server thread/INFO]: <Xygnus> internal hordeolum
+[22:41:14] [Server thread/WARN]: Pendr_a_gon moved wrongly!
+[22:44:25] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[22:44:25] [Server thread/INFO]: Pendr_a_gon left the game
+[22:44:25] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[22:45:08] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[22:45:08] [Server thread/INFO]: Xygnus left the game
+[22:45:08] [Server thread/INFO]: Disconnecting client Xygnus
+[22:47:24] [Server thread/INFO]: Stopping the server
+[22:47:24] [Server thread/INFO]: Stopping server
+[22:47:24] [Server thread/INFO]: Saving players
+[22:47:24] [Server thread/INFO]: Saving worlds
+[22:47:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:47:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:47:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
