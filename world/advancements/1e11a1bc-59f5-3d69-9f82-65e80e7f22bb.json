@@ -6704,6 +6704,12 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2023-01-23 22:50:25 +0700"
+    },
+    "done": true
+  },
   "byg:recipes/byg.byg/palm_slab": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:12:16 +0700"
