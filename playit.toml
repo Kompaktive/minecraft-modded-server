@@ -1,4 +1,4 @@
-last_update = 1674492059685
+last_update = 1674860700750
 api_url = "https://api.playit.cloud/agent"
 ping_target_addresses = ["23.133.216.1:5530", "ping.ply.gg"]
 control_address = "control.ply.gg"
@@ -14,14 +14,14 @@ tunnel_ip = "147.185.221.211"
 tunnel_from_port = 14723
 
 [[mappings]]
-proto = "tcp"
-tunnel_ip = "147.185.221.212"
-tunnel_from_port = 36004
-local_port = 25565
-
-[[mappings]]
 name = "Project Zomboid"
 proto = "udp"
 tunnel_ip = "147.185.221.212"
 tunnel_from_port = 36004
 local_port = 16261
+
+[[mappings]]
+proto = "tcp"
+tunnel_ip = "147.185.221.212"
+tunnel_from_port = 36004
+local_port = 25565

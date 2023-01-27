@@ -1067,6 +1067,13 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2023-01-27 20:51:01 +0700",
+      "minecraft:warped_forest": "2023-01-27 23:01:59 +0700"
+    },
+    "done": false
+  },
   "byg:recipes/byg.byg/embur_door": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:12:16 +0700"
@@ -3547,6 +3554,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-01-27 23:52:54 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:12:16 +0700"
@@ -5111,6 +5124,12 @@
   "byg:recipes/byg.byg/lament_button": {
     "criteria": {
       "has_the_recipe": "2023-01-05 20:12:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-01-27 23:41:05 +0700"
     },
     "done": true
   },
@@ -6733,6 +6752,8 @@
       "byg:coconino_meadow": "2023-01-07 19:22:50 +0700",
       "byg:allium_fields": "2023-01-16 20:55:47 +0700",
       "byg:rainbow_beach": "2023-01-16 21:44:47 +0700",
+      "byg:sythian_torrids": "2023-01-27 22:49:11 +0700",
+      "byg:glowstone_gardens": "2023-01-27 21:48:46 +0700",
       "byg:sierra_badlands": "2023-01-16 21:26:18 +0700",
       "byg:red_oak_forest": "2023-01-16 20:59:01 +0700",
       "byg:fragment_forest": "2023-01-07 19:33:37 +0700",
@@ -6741,12 +6762,14 @@
       "byg:quartz_desert": "2022-12-22 21:18:30 +0700",
       "byg:embur_bog": "2022-12-21 22:40:28 +0700",
       "byg:jacaranda_forest": "2023-01-16 21:03:01 +0700",
+      "byg:wailing_garth": "2023-01-27 23:01:22 +0700",
       "byg:autumnal_valley": "2023-01-16 20:58:28 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:18 +0700",
       "byg:cherry_blossom_forest": "2023-01-16 21:47:50 +0700",
       "byg:cardinal_tundra": "2022-12-21 21:14:23 +0700",
       "byg:baobab_savanna": "2023-01-16 21:44:19 +0700",
       "byg:amaranth_fields": "2023-01-16 21:25:39 +0700",
+      "byg:brimstone_caverns": "2023-01-27 22:32:21 +0700",
       "byg:coniferous_forest": "2023-01-10 20:29:03 +0700",
       "byg:basalt_barrera": "2023-01-16 21:09:44 +0700",
       "byg:maple_taiga": "2022-12-26 21:52:24 +0700",

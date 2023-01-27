@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2023-01-27 20:52:59 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2022-12-19 22:46:14 +0700"
@@ -284,6 +290,12 @@
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2022-12-19 22:46:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2023-01-27 20:54:48 +0700"
     },
     "done": true
   },
@@ -732,6 +744,12 @@
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2022-12-19 21:27:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2023-01-27 20:54:48 +0700"
     },
     "done": true
   },
@@ -1528,6 +1546,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2023-01-27 20:54:48 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2022-12-27 20:27:25 +0700"
@@ -2032,6 +2056,12 @@
   "inmis:plated_backpack": {
     "criteria": {
       "backpack": "2022-12-22 22:53:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2023-01-27 20:52:59 +0700"
     },
     "done": true
   },
