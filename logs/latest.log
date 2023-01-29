@@ -1,41 +1,1243 @@
-[00:02:33] [Server thread/INFO]: <Kompaktive> wew dah jam segini
-[00:02:35] [Server thread/INFO]: <Kompaktive> udahan ah
-[00:02:36] [Server thread/INFO]: Kompaktive lost connection: Disconnected
-[00:02:36] [Server thread/INFO]: Kompaktive left the game
-[00:02:36] [Server thread/INFO]: Disconnecting client Kompaktive
-[00:16:47] [Server thread/INFO]: Xygnus was slain by Zombie
-[00:16:47] [Server thread/INFO]: Grave spawned at: -555, 73, -232 | minecraft:overworld
-[00:18:43] [Server thread/INFO]: Saving grave backup data
-[00:23:43] [Server thread/INFO]: Saving grave backup data
-[00:23:56] [Server thread/INFO]: Grave at -555, 73, -232 was replaced with Block{minecraft:air}
-[00:23:56] [Server thread/INFO]: Xygnus is retrieving their grave at -555, 73, -232
-[00:23:56] [Server thread/INFO]: Xygnus retrieved the items from the grave
-[00:28:43] [Server thread/INFO]: Saving grave backup data
-[00:36:36] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
-[00:36:36] [Server thread/INFO]: Pendr_a_gon left the game
-[00:36:36] [Server thread/INFO]: Disconnecting client Pendr_a_gon
-[00:36:37] [Server thread/INFO]: Xygnus lost connection: Disconnected
-[00:36:37] [Server thread/INFO]: Xygnus left the game
-[00:36:38] [Server thread/INFO]: Disconnecting client Xygnus
-[05:46:49] [Server thread/INFO]: Kompaktive[/127.0.0.1:64255] logged in with entity id 115277 at (176.04390225709358, 11.0, -124.98093949049542)
-[05:46:49] [Server thread/INFO]: Sending server config values to client
-[05:46:49] [Server thread/INFO]: Kompaktive joined the game
-[05:46:50] [Netty Server IO #28/INFO]: Receiving client config
-[05:46:51] [Netty Server IO #28/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
-[05:46:51] [Server thread/INFO]: Received secret request of Kompaktive (15)
-[05:46:51] [Server thread/INFO]: Sent secret to Kompaktive
-[05:46:53] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
-[06:04:53] [Server thread/INFO]: Kompaktive lost connection: Disconnected
-[06:04:53] [Server thread/INFO]: Kompaktive left the game
-[06:04:53] [Server thread/INFO]: Disconnecting client Kompaktive
-[06:05:00] [Server thread/INFO]: Stopping the server
-[06:05:00] [Server thread/INFO]: Stopping server
-[06:05:00] [Server thread/INFO]: Saving players
-[06:05:00] [Server thread/INFO]: Saving worlds
-[06:05:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:05:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:05:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:05:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:05:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:05:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:05:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:39:13] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.11
+[13:39:13] [main/INFO]: Loading 85 mods:
+	- additionalstructures 4.1.0
+	- bettercombat 1.5.4+1.19
+	- blue_endless_jankson 1.2.1 via owo
+	- byg 2.0.0.13
+	- cardinal-components-base 5.0.2 via puzzleslib
+	- cardinal-components-block 5.0.2 via puzzleslib
+	- cardinal-components-chunk 5.0.2 via puzzleslib
+	- cardinal-components-entity 5.0.2 via puzzleslib
+	- cardinal-components-item 5.0.1 via polymorph
+	- cardinal-components-world 5.0.2 via puzzleslib
+	- chunkpregen 0.3.3
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- clumps 9.0.0+14
+	- com_electronwill_night-config_core 3.6.6 via byg
+	- com_electronwill_night-config_toml 3.6.6 via byg
+	- connectivity 1.19.2-3.7
+	- crawl 0.11.1
+	- elytraslot 6.0.0+1.19.2
+	- fabric-api 0.69.0+1.19.2
+	- fabric-api-base 0.4.13+0d0f210290 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.12+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.0.20+0d0f210290 via fabric-api
+	- fabric-block-api-v1 1.0.1+12bfe4ea90 via fabric-api
+	- fabric-command-api-v1 1.2.13+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.9+93d8cb8290 via fabric-api
+	- fabric-commands-v0 0.2.30+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.38+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.4.4+6064db2a90 via fabric-api
+	- fabric-convention-tags-v1 1.2.0+27265b3490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.7+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.3.3+ad31814d90 via fabric-api
+	- fabric-dimensions-v1 2.1.33+0d0f210290 via fabric-api
+	- fabric-entity-events-v1 1.5.2+9244241690 via fabric-api
+	- fabric-events-interaction-v0 0.4.31+6eb9a2a190 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.31+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.23+c6af733c90 via fabric-api
+	- fabric-item-api-v1 1.6.1+fa140d5990 via fabric-api
+	- fabric-item-groups-v0 0.3.36+9244241690 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.2+9244241690 via fabric-api
+	- fabric-loot-api-v2 1.1.10+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.13+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.5+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.21+33fbc73890 via fabric-api
+	- fabric-networking-api-v1 1.2.8+3b1d070f90 via fabric-api
+	- fabric-networking-v0 0.3.25+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.1.3+06e0e25190 via fabric-api
+	- fabric-particles-v1 1.0.12+79adfe0a90 via fabric-api
+	- fabric-registry-sync-v0 0.9.29+9244241690 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.17+0d0f210290 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.9+c6af733c90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.1.1+aae9039d90 via fabric-api
+	- fabric-resource-loader-v0 0.8.2+574a764890 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.4+1cc24b1b90 via fabric-api
+	- fabric-transfer-api-v1 2.1.3+9d081d6490 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.2+42d99c3290 via fabric-api
+	- fabricloader 0.14.11
+	- fallingtree 3.10.0
+	- ferritecore 5.0.3
+	- forgeconfigapiport 4.2.9
+	- fwaystones 3.0.5+mc1.19.2
+	- immersive_paintings 0.4.4+1.19.2
+	- inmis 2.7.1-1.19
+	- inmisaddon 1.0.3
+	- java 17
+	- leavesbegone 4.0.0
+	- lithium 0.10.4
+	- memoryleakfix 1.19.1-0.7.0
+	- minecraft 1.19.2
+	- mm 2.3 via crawl
+	- naturescompass 1.19.2-2.1.0-fabric
+	- nochatreports 1.19.2-v1.13.12
+	- omega-config 1.2.3-1.18.1 via inmis
+	- owo 0.8.2+1.19
+	- player-animator 0.4.0
+	- polymorph 0.46.1+1.19.2
+	- puzzleslib 4.3.12
+	- seasons 1.4-BETA+1.19
+	- sit 1.19-20
+	- spectrelib 0.11.0+1.19 via polymorph
+	- starlight 1.1.1+fabric.ae22326
+	- terrablender 2.0.1.130
+	- trinkets 3.4.1
+	- voicechat 1.19.2-2.3.23
+	- yigd 1.4.6
+[13:39:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/minecraft-modded-server/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[13:39:13] [main/INFO]: Compatibility level set to JAVA_17
+[13:39:13] [main/WARN]: Reference map 'fabric-chunkpregen-refmap.json' for chunkpregen.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:39:13] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[13:39:13] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 1 override(s) found
+[13:39:14] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[13:39:14] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
+[13:39:14] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[13:39:14] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[13:39:14] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
+[13:39:14] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[13:39:14] [main/WARN]: Error loading class: twilightforest/util/EntityUtil (java.lang.ClassNotFoundException: twilightforest/util/EntityUtil)
+[13:39:16] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[13:39:19] [main/INFO]: Building unoptimized datafixer
+[13:39:21] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[13:39:21] [main/INFO]: BYG registries bootstrapped
+[13:39:22] [main/ERROR]: No data fixer registered for byg:boat
+[13:39:22] [main/ERROR]: No data fixer registered for byg:chest_boat
+[13:39:23] [main/INFO]: Initializing BYG network...
+[13:39:23] [main/INFO]: Initialized BYG network!
+[13:39:23] [main/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[13:39:23] [main/INFO]: Connectivity initialized
+[13:39:23] [main/INFO]: Is initializing.
+[13:39:23] [main/INFO]: Has successfully been initialized.
+[13:39:23] [main/ERROR]: No data fixer registered for immersive_paintings:painting
+[13:39:23] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
+[13:39:23] [main/INFO]: Constructing common components for mod leavesbegone
+[13:39:23] [main/INFO]: Definitely not up to no good
+[13:39:23] [main/INFO]: KONNICHIWA ZA WARUDO!
+[13:39:23] [main/INFO]: Default JVM text encoding is: windows-1252
+[13:39:23] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[13:39:23] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[13:39:23] [main/INFO]: Constructing common components for mod puzzleslib
+[13:39:23] [main/INFO]: Trying to read config file...
+[13:39:23] [main/INFO]: A config file was found, loading it..
+[13:39:23] [main/INFO]: Successfully loaded config file.
+[13:39:23] [main/INFO]: ".\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[13:39:23] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13:39:23] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[13:39:23] [main/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[13:39:23] [main/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[13:39:23] [main/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[13:39:23] [main/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[13:39:23] [main/INFO]: Compatibility version 15
+[13:39:24] [main/INFO]: Loading plugins
+[13:39:24] [main/INFO]: Loaded 0 plugin(s)
+[13:39:24] [main/INFO]: Initializing plugins
+[13:39:24] [main/INFO]: Initialized 0 plugin(s)
+[13:39:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:39:25] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[13:39:25] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[13:39:26] [main/INFO]: Loaded 7 recipes
+[13:39:26] [main/INFO]: ".\config\byg\settings.json5" was read.
+[13:39:27] [main/INFO]: Loaded 1623 advancements
+[13:39:27] [main/INFO]: Reloading graveyard
+[13:39:27] [main/INFO]: Reloading custom grave areas
+[13:39:27] [main/INFO]: Reloading grave shape (server side)
+[13:39:28] [main/WARN]: Failed to parse level-type betterx, defaulting to minecraft:normal
+[13:39:28] [main/INFO]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.class_3176
+[13:39:28] [main/INFO]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.class_3324
+[13:39:28] [main/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[13:39:28] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13:39:28] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[13:39:28] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[13:39:28] [main/INFO]: Applied 0 biome modifications to 0 of 138 new biomes in 5.305 ms
+[13:39:28] [main/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[13:39:28] [main/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[13:39:28] [main/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: Loading server config for leavesbegone
+[13:39:29] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[13:39:29] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[13:39:29] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[13:39:29] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[13:39:29] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[13:39:29] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[13:39:29] [Server thread/INFO]: ".\config\byg\growing-patterns.json5" was read.
+[13:39:29] [Server thread/INFO]: ".\config\byg\trades.json5" was read.
+[13:39:29] [Server thread/INFO]: ".\config\byg\biomepedia.json5" was read.
+[13:39:29] [Server thread/INFO]: Created compressed zip back up for ".\config\byg" in ".\config\byg\backups\last_working_configs_backup.zip"
+[13:39:29] [Server thread/INFO]: BYG: Compostible Blocks Added!
+[13:39:29] [Server thread/INFO]: BYG: Added tillables!
+[13:39:29] [Server thread/INFO]: BYG: Added Flammables!
+[13:39:29] [Server thread/INFO]: BYG: "Load Complete" Event Complete!
+[13:39:29] [Server thread/INFO]: BYG: Added strippable Blocks...
+[13:39:29] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[13:39:29] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[13:39:29] [Server thread/INFO]: Loading properties
+[13:39:29] [Server thread/INFO]: Default game type: SURVIVAL
+[13:39:29] [Server thread/INFO]: Generating keypair
+[13:39:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:39:29] [Server thread/INFO]: Using default channel type
+[13:39:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:39:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:39:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:39:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:39:29] [Server thread/INFO]: Preparing level "world"
+[13:39:29] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
+[13:39:29] [Server thread/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[13:39:29] [Server thread/INFO]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
+[13:39:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:39:34] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[13:39:34] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[13:39:35] [Worker-Main-14/INFO]: Preparing spawn area: 31%
+[13:39:35] [Server thread/INFO]: Time elapsed: 5984 ms
+[13:39:35] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[13:39:35] [Server thread/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[13:39:35] [Server thread/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[13:39:36] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[13:39:36] [Server thread/INFO]: Done (6.605s)! For help, type "help"
+[13:39:36] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 10109 bytes (in 2 string chunks with the size of 10000)
+[13:39:36] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
+[13:39:36] [VoiceChatServerThread/INFO]: Server started at port 14723
+[13:39:36] [Server thread/INFO]: Loaded data from grave data file
+[13:39:54] [Server thread/INFO]: Kompaktive[/127.0.0.1:56522] logged in with entity id 33 at (-185.48207694299438, 110.0625, -248.18629897142233)
+[13:39:54] [Server thread/INFO]: Sending server config values to client
+[13:39:54] [Netty Server IO #3/INFO]: Receiving client config
+[13:39:54] [Server thread/INFO]: Kompaktive joined the game
+[13:39:54] [Netty Server IO #3/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[13:39:54] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[13:39:54] [Server thread/INFO]: Sent secret to Kompaktive
+[13:39:55] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[13:40:06] [VoiceChatPacketProcessingThread/INFO]: Player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb timed out
+[13:40:06] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Kompaktive
+[13:40:06] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Kompaktive
+[13:40:06] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[13:40:16] [VoiceChatPacketProcessingThread/INFO]: Player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb timed out
+[13:40:16] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Kompaktive
+[13:40:16] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Kompaktive
+[13:40:16] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[13:41:02] [Server thread/INFO]: Pendr_a_gon[/127.75.46.15:56534] logged in with entity id 316 at (470.8017134167247, 121.0, 1352.699999988079)
+[13:41:02] [Server thread/INFO]: Sending server config values to client
+[13:41:02] [Server thread/INFO]: Pendr_a_gon joined the game
+[13:41:02] [Netty Server IO #4/INFO]: Receiving client config
+[13:41:02] [Netty Server IO #4/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[13:41:02] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[13:41:02] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[13:41:04] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[13:41:14] [VoiceChatPacketProcessingThread/INFO]: Player 23c0aa95-0f73-3803-83af-6284fbb6f689 timed out
+[13:41:14] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Pendr_a_gon
+[13:41:14] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Pendr_a_gon
+[13:41:14] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[13:42:50] [Server thread/INFO]: [Kompaktive: Set the time to 0]
+[13:42:57] [Server thread/INFO]: <Kompaktive> 83
+[13:43:01] [Server thread/INFO]: <Kompaktive> 84 days
+[13:43:11] [Server thread/INFO]: <Pendr_a_gon> lumayan lah
+[13:44:02] [Server thread/INFO]: <Kompaktive> trus winter nyari makannya gimana wkwkw
+[13:44:08] [Server thread/INFO]: <Kompaktive> cropnya gak ada yg tumbuh di winter
+[13:44:10] [Server thread/INFO]: <Pendr_a_gon> makanya
+[13:44:13] [Server thread/INFO]: <Pendr_a_gon> kan lebih realistis
+[13:44:18] [Server thread/INFO]: <Pendr_a_gon> winter susah makanan
+[13:44:20] [Server thread/INFO]: <Pendr_a_gon> awokaowkoak
+[13:44:31] [Server thread/INFO]: <Kompaktive> gitu ternyata wkwkwk
+[13:44:36] [Server thread/INFO]: Saving grave backup data
+[13:44:42] [Server thread/INFO]: <Pendr_a_gon> masalahnya kalo cyclenya 28 hari-an
+[13:44:47] [Server thread/INFO]: <Pendr_a_gon> saljunya ada terus
+[13:44:55] [Server thread/INFO]: <Kompaktive> iya jga
+[13:45:01] [Server thread/INFO]: <Pendr_a_gon> gara2 meltnya lama
+[13:45:06] [Server thread/INFO]: <Pendr_a_gon> udah keburu winter lagi
+[13:46:13] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:14] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:14] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:14] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:14] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:14] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:14] [Worker-Main-14/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:15] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:15] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:15] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:15] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:15] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:15] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:20] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-15/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-15/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-15/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-15/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:21] [Worker-Main-15/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:46:22] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[13:50:06] [Server thread/INFO]: Xygnus[/127.235.151.169:56609] logged in with entity id 2741 at (-351.4865712619132, 63.7531999805212, -384.26906249378186)
+[13:50:06] [Server thread/INFO]: Sending server config values to client
+[13:50:06] [Server thread/INFO]: Xygnus joined the game
+[13:50:08] [Netty Server IO #7/INFO]: Receiving client config
+[13:50:10] [Server thread/INFO]: Received secret request of Xygnus (15)
+[13:50:10] [Netty Server IO #7/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[13:50:10] [Server thread/INFO]: Sent secret to Xygnus
+[13:50:17] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[13:50:18] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2609fc9c-7c98-4b38-a60d-66be7a59b0b0_quarter.png (The system cannot find the path specified)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[13:50:18] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[13:50:28] [VoiceChatPacketProcessingThread/INFO]: Player 56b826db-92a5-3046-b8c0-be8f72a01531 timed out
+[13:50:28] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Xygnus
+[13:50:28] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Xygnus
+[13:50:52] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[13:51:03] [VoiceChatPacketProcessingThread/INFO]: Player 56b826db-92a5-3046-b8c0-be8f72a01531 timed out
+[13:51:03] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Xygnus
+[13:51:03] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Xygnus
+[13:51:06] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[13:52:12] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\a1441bcc-5478-4300-ab33-9a2243468552_quarter.png (The system cannot find the path specified)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[13:52:12] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[13:52:33] [Server thread/INFO]: <Xygnus> tes
+[13:52:38] [Server thread/INFO]: <Kompaktive> ngelag?
+[13:52:58] [Server thread/INFO]: <Xygnus> endak
+[13:53:47] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[13:53:47] [Server thread/INFO]: Xygnus left the game
+[13:53:47] [Server thread/INFO]: Disconnecting client Xygnus
+[13:53:58] [Server thread/INFO]: Xygnus[/127.76.232.145:56631] logged in with entity id 3852 at (-271.02735743279186, 64.0, -356.7339139753751)
+[13:53:58] [Server thread/INFO]: Sending server config values to client
+[13:53:58] [Server thread/INFO]: Xygnus joined the game
+[13:53:58] [Netty Server IO #10/INFO]: Receiving client config
+[13:53:58] [Server thread/INFO]: Received secret request of Xygnus (15)
+[13:53:58] [Server thread/INFO]: Sent secret to Xygnus
+[13:53:58] [Netty Server IO #10/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[13:54:04] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[13:54:11] [Server thread/INFO]: <Kompaktive> gak ngelag tpi relog
+[13:54:17] [Server thread/INFO]: <Xygnus> XD XD
+[13:54:29] [Server thread/INFO]: <Xygnus> emg ga ngelag yo tdi
+[13:54:35] [Server thread/INFO]: <Xygnus> tapi tiba" dc
+[13:56:46] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\35a0007d-8ce5-4d3e-80fb-d91e2b87ee2f_eighth.png (The system cannot find the path specified)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[13:56:46] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[13:56:47] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\a1441bcc-5478-4300-ab33-9a2243468552_eighth.png (The system cannot find the path specified)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[13:56:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[13:56:56] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2609fc9c-7c98-4b38-a60d-66be7a59b0b0_quarter.png (The system cannot find the path specified)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[13:56:56] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:15] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2232d8a5-cd4a-4a3c-a951-f3b129a89ef6_quarter.png (The system cannot find the path specified)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:15] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\a1441bcc-5478-4300-ab33-9a2243468552_quarter.png (The system cannot find the path specified)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:15] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:16] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\35a0007d-8ce5-4d3e-80fb-d91e2b87ee2f_quarter.png (The system cannot find the path specified)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:16] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2609fc9c-7c98-4b38-a60d-66be7a59b0b0_half.png (The system cannot find the path specified)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:17] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\a1441bcc-5478-4300-ab33-9a2243468552_half.png (The system cannot find the path specified)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:17] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:20] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2232d8a5-cd4a-4a3c-a951-f3b129a89ef6_half.png (The system cannot find the path specified)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:20] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\35a0007d-8ce5-4d3e-80fb-d91e2b87ee2f_quarter.png (The system cannot find the path specified)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:20] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2609fc9c-7c98-4b38-a60d-66be7a59b0b0_half.png (The system cannot find the path specified)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:20] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2232d8a5-cd4a-4a3c-a951-f3b129a89ef6_quarter.png (The system cannot find the path specified)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:20] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:25] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2232d8a5-cd4a-4a3c-a951-f3b129a89ef6_half.png (The system cannot find the path specified)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:25] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:31] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\35a0007d-8ce5-4d3e-80fb-d91e2b87ee2f_half.png (The system cannot find the path specified)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[14:03:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:03:45] [Server thread/INFO]: <Pendr_a_gon> rip
+[14:03:49] [Server thread/INFO]: <Pendr_a_gon> trident gua ga balik
+[14:03:56] [Server thread/INFO]: <Kompaktive> niceee
+[14:04:01] [Server thread/INFO]: <Xygnus> :O
+[14:13:43] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[14:13:43] [Server thread/INFO]: Pendr_a_gon left the game
+[14:13:43] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[14:13:47] [Server thread/INFO]: Pendr_a_gon[/127.75.46.15:56691] logged in with entity id 11436 at (-208.38297018967677, 100.0, -277.7037955577571)
+[14:13:47] [Server thread/INFO]: Sending server config values to client
+[14:13:47] [Server thread/INFO]: Pendr_a_gon joined the game
+[14:13:47] [Netty Server IO #12/INFO]: Receiving client config
+[14:13:48] [Netty Server IO #12/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[14:13:48] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[14:13:48] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[14:13:50] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[14:17:14] [Server thread/INFO]: [Kompaktive: Gave 1 [Name Tag] to Kompaktive]
+[14:19:04] [Server thread/INFO]: <Kompaktive> ada yg merasa wolfnya dibunuh?
+[14:19:10] [Server thread/INFO]: <Pendr_a_gon> wtf
+[14:19:15] [Server thread/INFO]: <Pendr_a_gon> low hp
+[14:19:15] [Server thread/INFO]: <Xygnus> im sorry
+[14:33:16] [Server thread/INFO]: <Xygnus> afk bentaar
+[14:35:21] [Server thread/WARN]: Kompaktive moved too quickly! 1362.699999988079,26.5,-3051.531147975597
+[14:48:37] [Server thread/INFO]: Xygnus was shot by Kompaktive using [Spitfire]
+[14:48:37] [Server thread/INFO]: Grave spawned at: -232, 63, -182 | minecraft:overworld
+[14:48:44] [Server thread/INFO]: Xygnus fell from a high place
+[14:48:45] [Server thread/INFO]: Didn't generate grave as grave wouldn't contain anything
+[14:49:16] [Server thread/INFO]: Grave at -232, 63, -182 was replaced with Block{minecraft:air}
+[14:49:16] [Server thread/INFO]: Xygnus is retrieving their grave at -232, 63, -182
+[14:49:16] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[14:49:36] [Server thread/INFO]: Saving grave backup data
+[15:07:32] [Server thread/INFO]: [Kompaktive: Gave 1 [Cake] to Kompaktive]
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Player 23c0aa95-0f73-3803-83af-6284fbb6f689 timed out
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Pendr_a_gon
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Pendr_a_gon
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Player 56b826db-92a5-3046-b8c0-be8f72a01531 timed out
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Xygnus
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Xygnus
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb timed out
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Kompaktive
+[15:07:45] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Kompaktive
+[15:07:57] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[15:07:57] [Server thread/INFO]: Pendr_a_gon left the game
+[15:07:57] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[15:08:06] [Server thread/INFO]: <Kompaktive> test
+[15:08:21] [Server thread/INFO]: <Kompaktive> kok pedot ya vc nya
+[15:08:26] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[15:08:26] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[15:08:33] [Server thread/INFO]: <Xygnus> endak kok
+[15:10:18] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[15:10:18] [Server thread/INFO]: Xygnus left the game
+[15:10:18] [Server thread/INFO]: Disconnecting client Xygnus
+[15:10:47] [Server thread/INFO]: Xygnus[/127.76.232.145:56843] logged in with entity id 30346 at (-269.9155170302666, 73.0, -358.9471601055472)
+[15:10:59] [Server thread/INFO]: Sending server config values to client
+[15:10:59] [Server thread/INFO]: Xygnus joined the game
+[15:10:59] [Server thread/WARN]: Kompaktive moved too quickly! -0.25400670478984466,-6.109552546740034,8.214626963812577
+[15:10:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12811ms or 256 ticks behind
+[15:11:00] [Netty Server IO #18/INFO]: Receiving client config
+[15:11:00] [Server thread/INFO]: Received secret request of Xygnus (15)
+[15:11:00] [Server thread/INFO]: Sent secret to Xygnus
+[15:11:00] [Netty Server IO #18/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[15:11:01] [Server thread/INFO]: Pendr_a_gon[/127.75.46.15:56847] logged in with entity id 30347 at (-222.44421807458326, 76.0, -293.63741233207475)
+[15:11:01] [Server thread/INFO]: Sending server config values to client
+[15:11:01] [Server thread/INFO]: Pendr_a_gon joined the game
+[15:11:01] [Netty Server IO #19/INFO]: Receiving client config
+[15:11:01] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[15:11:01] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[15:11:01] [Netty Server IO #19/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[15:11:06] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[15:11:09] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[15:16:27] [Server thread/WARN]: Pendr_a_gon moved wrongly!
+[15:19:34] [Server thread/WARN]: Kompaktive moved too quickly! 43.65256667119348,31.0,77.56391176176999
+[15:19:34] [Server thread/WARN]: Kompaktive moved too quickly! 43.65256667119348,31.0,77.56391176176999
+[15:19:36] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[15:19:36] [Server thread/INFO]: Pendr_a_gon left the game
+[15:19:36] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[15:21:14] [Server thread/INFO]: <Kompaktive> anda ndk ngelag kan?
+[15:21:19] [Server thread/INFO]: <Xygnus> endak
+[15:21:22] [Server thread/INFO]: <Xygnus> lancar aku
+[15:25:30] [Server thread/INFO]: Pendr_a_gon[/127.75.46.15:56918] logged in with entity id 32365 at (-261.8471928492348, 67.5, -325.57248641209117)
+[15:25:30] [Server thread/INFO]: Sending server config values to client
+[15:25:30] [Server thread/INFO]: Pendr_a_gon joined the game
+[15:25:34] [Netty Server IO #20/INFO]: Receiving client config
+[15:25:36] [Netty Server IO #20/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[15:25:36] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[15:25:36] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[15:26:14] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[15:26:14] [Server thread/INFO]: Pendr_a_gon left the game
+[15:26:14] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[15:29:40] [Server thread/INFO]: Pendr_a_gon[/127.75.46.15:56942] logged in with entity id 32913 at (-261.8471928492348, 67.5, -325.57248641209117)
+[15:29:40] [Server thread/INFO]: Sending server config values to client
+[15:29:40] [Server thread/INFO]: Pendr_a_gon joined the game
+[15:29:41] [Netty Server IO #22/INFO]: Receiving client config
+[15:29:43] [Netty Server IO #22/INFO]: Priority overwritten for player Pendr_a_gon. Normal: GRAVE / Robbing: INVENTORY
+[15:29:43] [Server thread/INFO]: Received secret request of Pendr_a_gon (15)
+[15:29:43] [Server thread/INFO]: Sent secret to Pendr_a_gon
+[15:29:52] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 23c0aa95-0f73-3803-83af-6284fbb6f689
+[15:41:24] [Server thread/WARN]: Pendr_a_gon moved too quickly! 17.718898323081987,2.912673578945899,-1.7855943168027864
+[16:19:27] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[16:19:27] [Server thread/INFO]: Kompaktive left the game
+[16:19:27] [Server thread/INFO]: Disconnecting client Kompaktive
+[16:23:03] [Server thread/INFO]: Xygnus was slain by Pendr_a_gon using [Caliburn]
+[16:23:03] [Server thread/INFO]: Grave spawned at: -267, 63, -289 | minecraft:overworld
+[16:23:59] [Server thread/INFO]: Grave at -267, 63, -289 was replaced with Block{seasons:seasonal_snow}
+[16:23:59] [Server thread/INFO]: Xygnus is retrieving their grave at -267, 63, -289
+[16:23:59] [Server thread/INFO]: Xygnus retrieved the items from the grave
+[16:24:48] [Server thread/INFO]: Saving grave backup data
+[16:35:43] [Server thread/INFO]: <Xygnus> oh aku ada deng
+[16:36:41] [Server thread/INFO]: <Pendr_a_gon> wait
+[16:36:44] [Server thread/INFO]: <Pendr_a_gon> ke castle
+[16:36:56] [Server thread/INFO]: <Xygnus> aku ada oak log ternyata XD
+[16:37:06] [Server thread/INFO]: <Xygnus> di chest depan perpus
+[16:37:49] [Server thread/INFO]: <Xygnus> castle mu dah jadi?
+[16:37:54] [Server thread/INFO]: <Pendr_a_gon> udah
+[16:39:33] [Server thread/INFO]: <Xygnus> waaaaaw bagusssssss
+[16:39:36] [Server thread/INFO]: <Pendr_a_gon> mba dimana
+[16:39:43] [Server thread/INFO]: <Xygnus> di castle
+[16:39:46] [Server thread/WARN]: Pendr_a_gon moved too quickly! -16.380289959410106,-1.9903757050155093,5.781051962184961
+[16:39:53] [Server thread/INFO]: <Xygnus> AAA castle
+[16:39:55] [Server thread/INFO]: <Xygnus> XD XD
+[16:42:47] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:42:47] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:42:47] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:42:47] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:42:47] [Worker-Main-6/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:44:21] [Worker-Main-8/WARN]: Tried to access a block entity before it was created. class_2338{x=2785, y=76, z=748}
+[16:44:21] [Worker-Main-8/WARN]: Tried to access a block entity before it was created. class_2338{x=2785, y=76, z=748}
+[16:44:22] [Server thread/WARN]: Tried to load a block entity for block Block{fwaystones:waystone}[active=false,facing=west,half=upper,mossy=false,waterlogged=false] but failed at location class_2338{x=2785, y=76, z=748}
+[16:45:11] [Server thread/WARN]: Pendr_a_gon moved too quickly! -16.12501026402424,5.472225094762095,-6.321538363356154
+[17:27:02] [Server thread/WARN]: Pendr_a_gon moved too quickly! -0.09938961682089342,-10.854658122346834,-0.2622247684135459
+[17:27:14] [Server thread/WARN]: Pendr_a_gon moved too quickly! 5.636989104072676,-3.9674516866213807,-16.495217213499487
+[17:28:03] [Server thread/WARN]: Pendr_a_gon moved too quickly! 2.8355205065486757,3.6487797968489417,-17.53349127429567
+[17:28:14] [Worker-Main-13/WARN]: Empty height range: [6 below top-6 above bottom]
+[17:28:14] [Worker-Main-13/WARN]: Empty height range: [6 below top-6 above bottom]
+[17:28:14] [Worker-Main-9/WARN]: Empty height range: [6 below top-6 above bottom]
+[17:28:18] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[17:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=187, y=37, z=-175} class_2338{x=187, y=35, z=-175}
+[17:31:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=179, y=15, z=-188} class_2338{x=179, y=15, z=-189}
+[17:31:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=179, y=15, z=-188} class_2338{x=179, y=15, z=-189}
+[17:31:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=179, y=15, z=-188} class_2338{x=179, y=15, z=-189}
+[17:31:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=179, y=15, z=-188} class_2338{x=179, y=15, z=-189}
+[17:31:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=179, y=15, z=-188} class_2338{x=179, y=15, z=-189}
+[17:31:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=179, y=15, z=-188} class_2338{x=179, y=15, z=-189}
+[17:32:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=193, y=14, z=-211} class_2338{x=194, y=14, z=-211}
+[17:32:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=193, y=14, z=-211} class_2338{x=194, y=14, z=-211}
+[17:32:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=193, y=14, z=-211} class_2338{x=194, y=14, z=-211}
+[17:33:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=218, y=13, z=-212} class_2338{x=219, y=12, z=-212}
+[17:38:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=172, y=23, z=-264} class_2338{x=171, y=24, z=-264}
+[17:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=176, y=20, z=-228} class_2338{x=177, y=20, z=-228}
+[17:42:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=150, y=16, z=-240} class_2338{x=148, y=17, z=-242}
+[17:42:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=151, y=17, z=-240} class_2338{x=148, y=17, z=-242}
+[17:43:48] [Server thread/INFO]: Kompaktive[/127.0.0.1:57428] logged in with entity id 78440 at (-192.18714753343744, 110.0, -241.9053381855196)
+[17:43:48] [Server thread/INFO]: Sending server config values to client
+[17:43:48] [Server thread/INFO]: Kompaktive joined the game
+[17:43:49] [Netty Server IO #26/INFO]: Receiving client config
+[17:43:50] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[17:43:50] [Netty Server IO #26/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[17:43:50] [Server thread/INFO]: Sent secret to Kompaktive
+[17:43:53] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[17:44:04] [VoiceChatPacketProcessingThread/INFO]: Player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb timed out
+[17:44:04] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Kompaktive
+[17:44:04] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Kompaktive
+[17:44:04] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[17:57:45] [Server thread/INFO]: <Kompaktive> tag
+[18:02:49] [Server thread/INFO]: <Kompaktive> dnger voice ku gk?
+[18:26:09] [Server thread/WARN]: Kompaktive moved too quickly! 1364.8599012597576,26.0,-3050.5866119560214
+[18:26:09] [Server thread/WARN]: Kompaktive moved too quickly! 1364.8599012597576,26.0,-3050.5866119560214
+[18:33:56] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[18:33:56] [Server thread/INFO]: Kompaktive left the game
+[18:33:56] [Server thread/INFO]: Disconnecting client Kompaktive
+[18:34:51] [Server thread/INFO]: Kompaktive[/127.0.0.1:57607] logged in with entity id 95387 at (-243.29187425528733, 73.0, -287.9026081856939)
+[18:34:51] [Server thread/INFO]: Sending server config values to client
+[18:34:51] [Server thread/INFO]: Kompaktive joined the game
+[18:34:51] [Netty Server IO #0/INFO]: Receiving client config
+[18:34:51] [Netty Server IO #0/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[18:34:51] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[18:34:51] [Server thread/INFO]: Sent secret to Kompaktive
+[18:34:53] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[18:39:20] [Server thread/INFO]: <Kompaktive> :I
+[18:39:28] [Server thread/INFO]: <Xygnus> :3
+[18:54:52] [Server thread/INFO]: <Kompaktive> >:C
+[18:55:01] [Server thread/INFO]: <Xygnus> :P
+[19:08:53] [Server thread/INFO]: <Pendr_a_gon> zzzzzzzz
+[19:09:18] [Server thread/INFO]: <Kompaktive> ak males tidur gara" xygnus pokoknya
+[19:09:19] [Server thread/INFO]: <Kompaktive> wkwkwkwk
+[19:09:30] [Server thread/INFO]: <Xygnus> padahal aku gak tidur tdi XD
+[19:09:47] [Server thread/INFO]: <Kompaktive> trauma ak
+[19:18:03] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[19:18:03] [Server thread/INFO]: Kompaktive left the game
+[19:18:03] [Server thread/INFO]: Disconnecting client Kompaktive
+[19:29:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=151, y=21, z=-200} class_2338{x=150, y=20, z=-200}
+[19:31:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=132, y=18, z=-181} class_2338{x=131, y=19, z=-181}
+[19:31:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=131, y=19, z=-181} class_2338{x=130, y=18, z=-181}
+[19:38:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-595, y=67, z=-215} class_2338{x=-596, y=66, z=-212}
+[19:40:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-600, y=67, z=-213} class_2338{x=-601, y=67, z=-213}
+[19:45:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=143, y=27, z=-152} class_2338{x=143, y=27, z=-151}
+[19:45:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=143, y=27, z=-152} class_2338{x=143, y=27, z=-151}
+[19:54:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=126, y=43, z=-227} class_2338{x=126, y=41, z=-228}
+[19:55:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=33, z=-225} class_2338{x=126, y=35, z=-225}
+[19:56:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=117, y=45, z=-235} class_2338{x=117, y=47, z=-232}
+[19:57:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=114, y=25, z=-257} class_2338{x=114, y=26, z=-258}
+[19:57:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=114, y=25, z=-258} class_2338{x=114, y=25, z=-259}
+[19:57:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=114, y=25, z=-258} class_2338{x=114, y=24, z=-260}
+[19:57:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=118, y=22, z=-266} class_2338{x=113, y=21, z=-267}
+[19:58:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=116, y=15, z=-277} class_2338{x=117, y=17, z=-276}
+[19:59:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=121, y=29, z=-307} class_2338{x=121, y=29, z=-306}
+[19:59:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=121, y=29, z=-307} class_2338{x=121, y=29, z=-306}
+[19:59:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=121, y=29, z=-307} class_2338{x=121, y=29, z=-306}
+[19:59:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=121, y=29, z=-307} class_2338{x=121, y=29, z=-306}
+[19:59:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=121, y=29, z=-307} class_2338{x=121, y=29, z=-306}
+[19:59:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=117, y=31, z=-301} class_2338{x=117, y=31, z=-300}
+[19:59:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=115, y=28, z=-300} class_2338{x=116, y=32, z=-302}
+[20:00:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=92, y=33, z=-305} class_2338{x=91, y=33, z=-305}
+[20:01:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=37, z=-319} class_2338{x=74, y=37, z=-320}
+[20:01:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=37, z=-319} class_2338{x=74, y=37, z=-320}
+[20:01:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=37, z=-319} class_2338{x=74, y=37, z=-320}
+[20:01:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=37, z=-319} class_2338{x=74, y=37, z=-320}
+[20:01:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=37, z=-319} class_2338{x=74, y=37, z=-320}
+[20:01:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=37, z=-319} class_2338{x=74, y=37, z=-320}
+[20:03:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=71, y=33, z=-339} class_2338{x=71, y=32, z=-338}
+[20:04:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=57, y=22, z=-343} class_2338{x=59, y=22, z=-343}
+[20:04:56] [Server thread/INFO]: <Xygnus> aku mo makan dlu deh
+[20:05:03] [Server thread/INFO]: <Xygnus> brb~
+[20:05:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=13, z=-352} class_2338{x=52, y=12, z=-352}
+[20:05:16] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[20:05:16] [Server thread/INFO]: Xygnus left the game
+[20:05:16] [Server thread/INFO]: Disconnecting client Xygnus
+[20:12:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=25, y=19, z=-386} class_2338{x=25, y=18, z=-386}
+[20:13:02] [Server thread/INFO]: Kompaktive[/127.0.0.1:57882] logged in with entity id 127936 at (-207.02167300399915, 100.0, -278.1457636265163)
+[20:13:02] [Server thread/INFO]: Sending server config values to client
+[20:13:02] [Server thread/INFO]: Kompaktive joined the game
+[20:13:02] [Netty Server IO #7/INFO]: Receiving client config
+[20:13:02] [Netty Server IO #7/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[20:13:02] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[20:13:02] [Server thread/INFO]: Sent secret to Kompaktive
+[20:13:03] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[20:14:01] [Server thread/INFO]: <Pendr_a_gon> hllo
+[20:14:05] [Server thread/INFO]: <Kompaktive> sup
+[20:14:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2, y=14, z=-393} class_2338{x=3, y=15, z=-393}
+[20:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=28, z=-438} class_2338{x=-17, y=28, z=-438}
+[20:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=28, z=-438} class_2338{x=-17, y=28, z=-438}
+[20:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=28, z=-438} class_2338{x=-17, y=28, z=-438}
+[20:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=28, z=-438} class_2338{x=-17, y=28, z=-438}
+[20:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=28, z=-438} class_2338{x=-17, y=28, z=-438}
+[20:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=28, z=-438} class_2338{x=-17, y=28, z=-438}
+[20:23:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=33, z=-438} class_2338{x=-12, y=33, z=-438}
+[20:23:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=33, z=-438} class_2338{x=-12, y=33, z=-438}
+[20:23:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=33, z=-438} class_2338{x=-12, y=33, z=-438}
+[20:23:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=33, z=-438} class_2338{x=-12, y=33, z=-438}
+[20:23:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=33, z=-438} class_2338{x=-12, y=33, z=-438}
+[20:23:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=33, z=-438} class_2338{x=-12, y=33, z=-438}
+[20:48:32] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[20:48:32] [Server thread/INFO]: Kompaktive left the game
+[20:48:32] [Server thread/INFO]: Disconnecting client Kompaktive
+[20:49:26] [Server thread/INFO]: Kompaktive[/127.0.0.1:58101] logged in with entity id 138081 at (-199.25380497297667, 109.0, -255.42915807426584)
+[20:49:26] [Server thread/INFO]: Sending server config values to client
+[20:49:26] [Netty Server IO #12/INFO]: Receiving client config
+[20:49:26] [Server thread/INFO]: Kompaktive joined the game
+[20:49:26] [Netty Server IO #12/INFO]: Priority overwritten for player Kompaktive. Normal: GRAVE / Robbing: INVENTORY
+[20:49:26] [Server thread/INFO]: Received secret request of Kompaktive (15)
+[20:49:26] [Server thread/INFO]: Sent secret to Kompaktive
+[20:49:28] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 1e11a1bc-59f5-3d69-9f82-65e80e7f22bb
+[20:50:05] [Server thread/INFO]: Xygnus[/127.235.151.169:58115] logged in with entity id 138489 at (-554.6127876161187, 78.0, -212.53075734885425)
+[20:50:05] [Server thread/INFO]: Sending server config values to client
+[20:50:05] [Server thread/INFO]: Xygnus joined the game
+[20:50:07] [Netty Server IO #16/INFO]: Receiving client config
+[20:50:08] [Server thread/INFO]: Received secret request of Xygnus (15)
+[20:50:08] [Netty Server IO #16/INFO]: Priority overwritten for player Xygnus. Normal: GRAVE / Robbing: INVENTORY
+[20:50:08] [Server thread/INFO]: Sent secret to Xygnus
+[20:50:14] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 56b826db-92a5-3046-b8c0-be8f72a01531
+[20:58:43] [Server thread/INFO]: RoVlum[/127.71.107.211:58160] logged in with entity id 142728 at (-274.86250001192093, 64.0, -268.69999998807907)
+[20:58:43] [Server thread/INFO]: Sending server config values to client
+[20:58:43] [Server thread/INFO]: RoVlum joined the game
+[20:58:44] [Netty Server IO #19/INFO]: Receiving client config
+[20:58:45] [Netty Server IO #19/INFO]: Priority overwritten for player RoVlum. Normal: GRAVE / Robbing: INVENTORY
+[20:58:45] [Server thread/INFO]: Received secret request of RoVlum (15)
+[20:58:45] [Server thread/INFO]: Sent secret to RoVlum
+[20:58:48] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player d61e7373-293f-3574-b8d2-d6999e89beef
+[20:58:54] [Server thread/INFO]: <RoVlum> ehem
+[20:58:58] [Server thread/INFO]: <RoVlum> HALOO MBAAA
+[20:59:04] [Server thread/INFO]: <Kompaktive> XD
+[20:59:07] [Server thread/INFO]: <Xygnus> HALOOOO ROVLUUUM
+[20:59:17] [Server thread/INFO]: <Pendr_a_gon> Aku ga di sapa?
+[20:59:22] [Server thread/INFO]: <RoVlum> halo ras
+[20:59:26] [Server thread/INFO]: <Pendr_a_gon> paan
+[20:59:27] [Server thread/INFO]: <RoVlum> halo mas
+[20:59:31] [Server thread/INFO]: <Kompaktive> siapa kamu
+[20:59:33] [Server thread/INFO]: <Kompaktive> wkwkwkw
+[20:59:36] [Server thread/INFO]: <RoVlum> asu tenan
+[21:00:01] [Server thread/INFO]: <RoVlum> pengen anvil
+[21:00:02] [Server thread/INFO]: <RoVlum> numpang
+[21:00:05] [Server thread/INFO]: <RoVlum> siapa punya\
+[21:00:23] [Server thread/INFO]: <Kompaktive> blacksmith coba
+[21:02:55] [Server thread/INFO]: <RoVlum> ada mod exploration nda
+[21:03:21] [Server thread/INFO]: <Kompaktive> apa itu
+[21:03:31] [Server thread/INFO]: <RoVlum> mod yg berkaitan dengan eksplorasi
+[21:04:10] [Server thread/INFO]: <Kompaktive> tak ada
+[21:06:08] [Server thread/WARN]: Kompaktive moved too quickly! -295.0499607429593,13.0,140.73187451031595
+[21:08:06] [Server thread/WARN]: Pendr_a_gon moved too quickly! 17.830454769531343,1.439094408422477,-3.429268285194695
+[21:08:08] [Server thread/WARN]: Pendr_a_gon moved too quickly! 17.34226519030466,-2.1270236171509964,-2.2750403580342606
+[21:08:31] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2232d8a5-cd4a-4a3c-a951-f3b129a89ef6_half.png (The system cannot find the path specified)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[21:08:31] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:08:32] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\2609fc9c-7c98-4b38-a60d-66be7a59b0b0_half.png (The system cannot find the path specified)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[21:08:32] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:08:37] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\35a0007d-8ce5-4d3e-80fb-d91e2b87ee2f_quarter.png (The system cannot find the path specified)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[21:08:37] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:08:47] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\a1441bcc-5478-4300-ab33-9a2243468552_quarter.png (The system cannot find the path specified)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:140)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:737)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[21:08:47] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:08:49] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\a1441bcc-5478-4300-ab33-9a2243468552_half.png (The system cannot find the path specified)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:08:49] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\35a0007d-8ce5-4d3e-80fb-d91e2b87ee2f_half.png (The system cannot find the path specified)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18859(class_1255.java:157)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_4093.method_18859(class_4093.java:23)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:776)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:159)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:131)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:758)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:752)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:116)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:736)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:669)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+[21:08:49] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:08:58] [Server thread/INFO]: [Kompaktive: Killed 71 entities]
+[21:10:27] [Server thread/INFO]: <RoVlum> afk
+[21:12:31] [Server thread/INFO]: [Kompaktive: Killed 68 entities]
+[21:26:39] [Server thread/INFO]: <RoVlum> me back
+[21:26:44] [Server thread/INFO]: <Pendr_a_gon> hi back
+[21:27:07] [Server thread/INFO]: <RoVlum> zzz
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:10] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-56/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-56/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-56/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-56/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-56/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-56/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-175/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:35:31] [Worker-Main-175/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:38:05] [Server thread/INFO]: <RoVlum> zzz
+[21:38:11] [Server thread/INFO]: <Pendr_a_gon> zzzzzzzzzzzzzz
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:39:43] [Worker-Main-54/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:41:39] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[21:42:01] [Worker-Main-7/WARN]: Tried to access a block entity before it was created. class_2338{x=-323, y=69, z=-2136}
+[21:42:01] [Worker-Main-7/WARN]: Tried to access a block entity before it was created. class_2338{x=-323, y=69, z=-2136}
+[21:42:09] [Server thread/WARN]: Tried to load a block entity for block Block{fwaystones:waystone}[active=false,facing=west,half=upper,mossy=false,waterlogged=false] but failed at location class_2338{x=-323, y=69, z=-2136}
+[21:45:40] [Server thread/WARN]: Kompaktive moved too quickly! -339.8829557493317,-18.0,64.27158970712907
+[21:45:40] [Server thread/WARN]: Kompaktive moved too quickly! -339.8829557493317,-18.0,64.27158970712907
+[21:46:18] [Server thread/WARN]: Kompaktive moved too quickly! 337.74855421239,17.4375,-64.24091429105047
+[21:48:44] [Server thread/INFO]: <RoVlum> zz
+[21:56:44] [Server thread/INFO]: <RoVlum> lah
+[21:56:46] [Server thread/INFO]: <RoVlum> kuda gw mana
+[21:57:19] [Server thread/INFO]: <RoVlum> ada yg liat kuda ku?
+[21:57:33] [Server thread/INFO]: <Kompaktive> pernah
+[21:57:37] [Server thread/INFO]: <Kompaktive> merantau kemana ntah wkwkw
+[21:57:37] [Server thread/INFO]: <Pendr_a_gon> dkt kuil gua kayaknya
+[21:57:44] [Server thread/INFO]: <Xygnus> terakhir aku liat di farm hobbit hole ku
+[21:57:45] [Server thread/INFO]: <RoVlum> aku iket lo
+[21:58:15] [Server thread/INFO]: <RoVlum> nda ada
+[21:58:28] [Server thread/INFO]: <RoVlum> kuda nya warna putih
+[21:58:32] [Server thread/INFO]: <Kompaktive> oh putih?
+[21:58:35] [Server thread/INFO]: <RoVlum> hooh
+[21:58:37] [Server thread/INFO]: <Xygnus> oh kirain coklat
+[21:58:40] [Server thread/INFO]: <RoVlum> pke leather armor
+[21:58:41] [Server thread/INFO]: <Kompaktive> kok ak pernahnya liat coklat ya
+[21:58:42] [Server thread/INFO]: <Pendr_a_gon> oh kalo coklat ini
+[21:58:45] [Server thread/INFO]: <RoVlum> jdi keliatan coklat
+[21:58:49] [Server thread/INFO]: <RoVlum> where
+[21:59:00] [Server thread/INFO]: <Pendr_a_gon> yep di kuil
+[21:59:03] [Server thread/INFO]: <Pendr_a_gon> look up
+[21:59:30] [Server thread/INFO]: <Pendr_a_gon> kabin
+[21:59:35] [Server thread/INFO]: <Pendr_a_gon> dah gua bawain
+[22:01:49] [Server thread/INFO]: <RoVlum> ada yg suka koleksi bunga?
+[22:01:58] [Server thread/INFO]: <RoVlum> aku ada beberapa bunga cantik, hasil eksplor
+[22:01:59] [Server thread/INFO]: <Pendr_a_gon> irl apa minecraft?
+[22:02:04] [Server thread/INFO]: <RoVlum> mc
+[22:02:14] [Server thread/INFO]: <RoVlum> mayan keren keren
+[22:02:17] [Server thread/INFO]: <Pendr_a_gon> minta diamond aja
+[22:02:17] [Server thread/INFO]: <RoVlum> cuma nda ada pot
+[22:02:22] [Server thread/INFO]: <RoVlum> '-'
+[22:02:32] [Server thread/INFO]: <RoVlum> mba mau bunga tidak
+[22:02:39] [Server thread/INFO]: <Kompaktive> waw
+[22:02:50] [Server thread/INFO]: <Xygnus> bunganya warna apa?
+[22:02:59] [Server thread/INFO]: <Kompaktive> wa
+[22:03:00] [Server thread/INFO]: <Kompaktive> w
+[22:03:05] [Server thread/INFO]: <RoVlum> ada putijh, pink, merah kuning, merah putih
+[22:03:33] [Server thread/INFO]: <Xygnus> mau yg warna putih dong
+[22:03:40] [Server thread/INFO]: <RoVlum> bole
+[22:03:43] [Server thread/INFO]: <RoVlum> dimana lokasi
+[22:03:48] [Server thread/INFO]: <RoVlum> tak pilih saja
+[22:03:59] [Server thread/INFO]: <Pendr_a_gon> xaero-waypoint:Shared Location:S:-593:99:-218:6:false:0:Internal-overworld-waypoints
+[22:05:08] [Server thread/INFO]: <RoVlum> aku mau left, kalo mau bunganya, ambil aja didepan tambang, depan kuil
+[22:05:16] [Server thread/INFO]: <RoVlum> bye~~
+[22:05:19] [Server thread/INFO]: <Kompaktive> bai
+[22:05:22] [Server thread/INFO]: RoVlum lost connection: Disconnected
+[22:05:22] [Server thread/INFO]: RoVlum left the game
+[22:05:22] [Server thread/INFO]: Disconnecting client RoVlum
+[22:05:22] [Server thread/INFO]: <Xygnus> okeeey nnti tak ambil
+[22:05:27] [Server thread/INFO]: <Kompaktive> telat
+[22:05:28] [Server thread/INFO]: <Kompaktive> XD
+[22:05:41] [Server thread/INFO]: <Xygnus> org tdi diserang phantom
+[22:20:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=24, z=-203} class_2338{x=-13, y=25, z=-204}
+[22:20:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=24, z=-203} class_2338{x=-13, y=25, z=-204}
+[22:20:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=24, z=-203} class_2338{x=-13, y=25, z=-204}
+[22:20:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=13, z=-182} class_2338{x=-18, y=13, z=-181}
+[22:20:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=13, z=-182} class_2338{x=-18, y=13, z=-181}
+[22:20:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=13, z=-182} class_2338{x=-18, y=13, z=-181}
+[22:20:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=13, z=-182} class_2338{x=-18, y=13, z=-181}
+[22:20:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=13, z=-182} class_2338{x=-18, y=13, z=-181}
+[22:20:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=13, z=-182} class_2338{x=-18, y=13, z=-181}
+[22:22:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=14, y=20, z=-177} class_2338{x=15, y=21, z=-177}
+[22:27:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=16, z=-189} class_2338{x=-4, y=16, z=-190}
+[22:27:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=16, z=-189} class_2338{x=-4, y=16, z=-190}
+[22:27:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=16, z=-189} class_2338{x=-4, y=16, z=-190}
+[22:27:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=16, z=-189} class_2338{x=-4, y=16, z=-190}
+[22:27:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=16, z=-189} class_2338{x=-4, y=16, z=-190}
+[22:27:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=16, z=-189} class_2338{x=-4, y=16, z=-190}
+[22:27:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=32, z=-215} class_2338{x=0, y=31, z=-216}
+[22:43:37] [Server thread/INFO]: Villager class_1646['silenced'/192846, l='ServerLevel[world]', x=-196.83, y=106.90, z=-270.58] died, message: 'silenced was slain by silenced'
+[22:43:37] [Server thread/INFO]: Named entity class_1646['silenced'/192846, l='ServerLevel[world]', x=-196.83, y=106.90, z=-270.58] died: silenced was slain by silenced
+[22:44:27] [Server thread/INFO]: Villager class_1646['silenced'/193042, l='ServerLevel[world]', x=-196.83, y=106.90, z=-270.58] died, message: 'silenced was slain by silenced'
+[22:44:27] [Server thread/INFO]: Named entity class_1646['silenced'/193042, l='ServerLevel[world]', x=-196.83, y=106.90, z=-270.58] died: silenced was slain by silenced
+[22:45:11] [Server thread/INFO]: [Kompaktive: Gave 2 [Golden Apple] to Kompaktive]
+[22:49:31] [Server thread/INFO]: [Kompaktive: Gave 1 [Name Tag] to Kompaktive]
+[22:49:33] [Server thread/INFO]: [Kompaktive: Gave 1 [Name Tag] to Kompaktive]
+[22:49:45] [Server thread/INFO]: [Kompaktive: Gave 1 [Anvil] to Kompaktive]
+[22:49:53] [Server thread/INFO]: [Kompaktive: Set own game mode to Creative Mode]
+[22:50:03] [Server thread/INFO]: [Kompaktive: Set own game mode to Survival Mode]
+[22:51:41] [Server thread/INFO]: Kompaktive lost connection: Disconnected
+[22:51:41] [Server thread/INFO]: Kompaktive left the game
+[22:51:41] [Server thread/INFO]: Disconnecting client Kompaktive
+[23:13:58] [Server thread/INFO]: Pendr_a_gon lost connection: Disconnected
+[23:13:58] [Server thread/INFO]: Pendr_a_gon left the game
+[23:13:58] [Server thread/INFO]: Disconnecting client Pendr_a_gon
+[23:13:59] [Server thread/INFO]: Xygnus lost connection: Disconnected
+[23:13:59] [Server thread/INFO]: Xygnus left the game
+[23:13:59] [Server thread/INFO]: Disconnecting client Xygnus
+[23:26:27] [Server thread/INFO]: Stopping the server
+[23:26:27] [Server thread/INFO]: Stopping server
+[23:26:27] [Server thread/INFO]: Saving players
+[23:26:27] [Server thread/INFO]: Saving worlds
+[23:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

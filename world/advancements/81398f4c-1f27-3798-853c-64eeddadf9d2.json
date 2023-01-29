@@ -317,6 +317,12 @@
     },
     "done": true
   },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2023-01-28 21:38:35 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-12-19 21:26:31 +0700"
@@ -353,9 +359,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2023-01-28 21:41:46 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-12-19 22:54:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-01-28 21:46:14 +0700"
     },
     "done": true
   },
@@ -448,6 +466,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-27 19:47:47 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2023-01-28 21:38:35 +0700"
     },
     "done": true
   },
@@ -1661,11 +1685,13 @@
   },
   "byg:adventure/oh_the_biomes_youll_go": {
     "criteria": {
+      "byg:coconino_meadow": "2023-01-28 21:39:38 +0700",
       "byg:autumnal_forest": "2022-12-19 21:15:27 +0700",
       "byg:quartz_desert": "2022-12-29 20:13:48 +0700",
       "byg:embur_bog": "2022-12-29 20:13:11 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:18 +0700",
       "byg:cardinal_tundra": "2022-12-27 19:57:51 +0700",
+      "byg:maple_taiga": "2023-01-28 21:45:12 +0700",
       "byg:frosted_coniferous_forest": "2022-12-27 19:56:03 +0700",
       "byg:frosted_taiga": "2022-12-19 21:46:39 +0700",
       "byg:borealis_grove": "2022-12-27 20:38:50 +0700"
@@ -1700,6 +1726,7 @@
     "criteria": {
       "minecraft:frozen_river": "2022-12-19 21:24:29 +0700",
       "minecraft:windswept_hills": "2022-12-19 21:27:54 +0700",
+      "minecraft:river": "2023-01-28 21:39:42 +0700",
       "minecraft:snowy_plains": "2022-12-27 19:56:01 +0700",
       "minecraft:snowy_taiga": "2022-12-19 21:40:49 +0700",
       "minecraft:dripstone_caves": "2022-12-27 19:46:31 +0700",
@@ -2048,6 +2075,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2022-12-19 22:54:16 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:anti_creeper_grief": {
+    "criteria": {
+      "tick": "2023-01-28 21:38:35 +0700"
     },
     "done": true
   },

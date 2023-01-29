@@ -843,6 +843,12 @@
     },
     "done": true
   },
+  "byg:recipes/byg.byg/zelkova_planks": {
+    "criteria": {
+      "has_logs": "2023-01-29 21:32:36 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2022-12-25 22:12:45 +0700"
@@ -1104,6 +1110,12 @@
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2023-01-11 20:44:55 +0700"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/witch_hazel_planks": {
+    "criteria": {
+      "has_logs": "2023-01-29 21:51:46 +0700"
     },
     "done": true
   },
@@ -1383,6 +1395,7 @@
       "minecraft:taiga": "2022-12-25 22:03:37 +0700",
       "minecraft:frozen_river": "2022-12-19 21:11:39 +0700",
       "minecraft:windswept_hills": "2022-12-19 21:27:48 +0700",
+      "minecraft:beach": "2023-01-29 21:31:12 +0700",
       "minecraft:river": "2022-12-21 22:59:18 +0700",
       "minecraft:snowy_plains": "2022-12-19 22:44:37 +0700",
       "minecraft:snowy_taiga": "2022-12-19 21:38:37 +0700",
@@ -1624,6 +1637,12 @@
     },
     "done": false
   },
+  "byg:recipes/byg.byg/witch_hazel_wood": {
+    "criteria": {
+      "has_log": "2023-01-29 21:51:46 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_chestplate": "2022-12-25 22:12:37 +0700"
@@ -1750,6 +1769,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-01-29 21:29:52 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-12-19 21:10:25 +0700"
@@ -1807,6 +1832,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2022-12-19 21:09:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-01-29 21:29:52 +0700"
     },
     "done": true
   },
@@ -3044,7 +3075,9 @@
       "byg:autumnal_forest": "2022-12-19 21:05:07 +0700",
       "byg:rose_fields": "2023-01-10 20:09:29 +0700",
       "byg:quartz_desert": "2022-12-26 21:44:39 +0700",
+      "byg:weeping_witch_forest": "2023-01-29 21:51:49 +0700",
       "byg:embur_bog": "2022-12-26 21:40:15 +0700",
+      "byg:zelkova_forest": "2023-01-29 21:36:34 +0700",
       "byg:shattered_glacier": "2022-12-21 23:04:43 +0700",
       "byg:autumnal_valley": "2023-01-11 22:17:41 +0700",
       "byg:skyris_vale": "2022-12-19 21:28:17 +0700",
@@ -3234,6 +3267,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2023-01-02 21:56:02 +0700"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/zelkova_wood": {
+    "criteria": {
+      "has_log": "2023-01-29 21:32:36 +0700"
     },
     "done": true
   },
